@@ -38,7 +38,7 @@ const Header: React.FC = () => {
   // Handle scroll effect
   useEffect(() => {
     const handleScroll = () => {
-      const scrollThreshold = pathUrl === "/" ? 800 : 300;
+      const scrollThreshold = pathUrl === "/" ? 600 : 300;
       if (window.scrollY > scrollThreshold) {
         setScrolled(true);
       } else {
@@ -70,18 +70,17 @@ const Header: React.FC = () => {
   // Dark mode for home page and product pages with black hero sections
   const isDarkMode =
     pathUrl === "/" ||
-    pathUrl === "/mcbbox" ||
     pathUrl === "/electric-distribution-box" ||
     pathUrl === "/busbar-hrc" ||
-    pathUrl.startsWith("/product");
-
-
-    
+    pathUrl === "/download" ||
+    pathUrl === "/contact" ||
+    pathUrl === "/about" ||
+    pathUrl.startsWith("/products");
 
   return (
     <>
       <header
-        className={`fixed left-0 right-0 top-0 z-30 transition-all duration-300 font-light ${
+        className={`fixed left-0 right-0 top-0 z-30 font-light transition-all duration-300 ${
           scrolled
             ? isDarkMode
               ? "bg-[#2d333f]/70 py-3 shadow-md"
@@ -99,54 +98,25 @@ const Header: React.FC = () => {
                 href="/"
                 className={`navbar-logo block w-full ${scrolled ? "py-2" : "py-5"}`}
               >
-                {pathUrl !== "/contact" &&
-                pathUrl !== "/download" &&
-                pathUrl !== "/about" ? (
-                  <>
-                    <Image
-                      src={
-                        scrolled
-                          ? "/assets/Rahi_LogoW.png"
-                          : "/assets/Rahi_LogoW.png"
-                      }
-                      alt="logo"
-                      width={140}
-                      height={30}
-                      className=" w-28 dark:hidden sm:w-full "
-                      priority
-                    />
-                    <Image
-                      src="/assets/Rahi_LogoW.png"
-                      alt="logo"
-                      width={140}
-                      height={30}
-                      className="header-logo hidden w-28 dark:block sm:w-full"
-                      priority
-                    />
-                  </>
-                ) : (
-                  <>
-                    <Image
-                      src="/assets/Rahi_Logo.png"
-                      alt="logo"
-                      width={140}
-                      height={30}
-                      className="header-logo w-28 dark:hidden sm:w-full"
-                    />
-                    <Image
-                      src="/assets/Rahi_Logo.png"
-                      alt="logo"
-                      width={140}
-                      height={30}
-                      className="header-logo hidden w-28 dark:block sm:w-full"
-                    />
-                  </>
-                )}
+                <Image
+                  src="/assets/Rahi_LogoW.png"
+                  alt="logo"
+                  width={140}
+                  height={30}
+                  className="header-logo w-28 dark:hidden sm:w-full"
+                />
+                <Image
+                  src="/assets/Rahi_LogoW.png"
+                  alt="logo"
+                  width={140}
+                  height={30}
+                  className="header-logo hidden w-28 dark:block sm:w-full"
+                />
               </Link>
             </div>
 
             {/* Desktop Navigation */}
-            <nav className="hidden items-center space-x-8 lg:flex font-light">
+            <nav className="hidden items-center space-x-8 font-light lg:flex">
               {menuData.map((item) => (
                 <div
                   key={item.id}
@@ -301,7 +271,6 @@ const Header: React.FC = () => {
               ))}
             </nav>
 
-            {/* Mobile Menu Toggle */}
             <Button
               variant="ghost"
               size="icon"
@@ -309,9 +278,9 @@ const Header: React.FC = () => {
               onClick={toggleMobileMenu}
             >
               {isMobileMenuOpen ? (
-                <X className="h-7 w-7" />
+                <X className="h-14 w-14" />
               ) : (
-                <Menu className="h-7 w-7" />
+                <Menu className="h-14 w-14" />
               )}
               <span className="sr-only">Menu</span>
             </Button>
@@ -319,7 +288,6 @@ const Header: React.FC = () => {
         </div>
       </header>
 
-      {/* Mobile Menu */}
       <MobileMenu
         isOpen={isMobileMenuOpen}
         onClose={() => setIsMobileMenuOpen(false)}

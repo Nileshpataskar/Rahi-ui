@@ -22,10 +22,10 @@ export default function RootLayout({
   }, []);
 
   return (
-    <html suppressHydrationWarning={true} className="!scroll-smooth" lang="en">
+    <html suppressHydrationWarning={true} className="!scroll-smooth overflow-x-hidden" lang="en">
       <head />
 
-      <body>
+      <body className="overflow-x-hidden">
         <ThemeProvider
           attribute="class"
           enableSystem={false}

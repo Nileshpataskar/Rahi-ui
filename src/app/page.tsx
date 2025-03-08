@@ -15,6 +15,10 @@ import HeroSection from "@/components/Trying/Hero1";
 import { useEffect, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
 import WhyChooseUs from "@/components/WhyChooseUs";
+import ProductCarousel from "@/components/ProductCarousel";
+import menuData from "@/components/Header/menuData";
+import TeamSection from "@/TeamSection";
+import { ProductShowcaseSection } from "@/components/ProductShowcase";
 
 // export const metadata: Metadata = {
 //   title: "Rahi Industries",
@@ -25,23 +29,25 @@ export default function Home() {
   return (
     <main suppressHydrationWarning>
       <ScrollUp />
-      <HeroSection />
-      {/* <Hero /> */}
-
-      <WhoAreWe />
-      <WhyChooseUs />
-
-      {/* Who We Are Section */}
-
-      <Products />
-      <OurMission />
-      <Team />
+      <HeroSection />x
+      <div className="container mx-auto max-w-6xl py-10">
+        <WhoAreWe />
+      </div>
+      <div className="container mx-auto max-w-6xl py-10">
+        <OurMission />
+      </div>
+      {/* <Products /> */}
+      <ProductShowcaseSection />
+      {/* <Team /> */}
+      <TeamSection />
       <Clients />
-      {/* <Testimonials /> */}
-      {/* <Faq /> */}
-      <CallToAction />
+      <CallToAction
+        buttons={[
+          { name: "Download Resource", path: "/download" },
+          { name: "Contact Us", path: "/contact" },
+        ]}
+      />
       <Contact />
-   
     </main>
   );
 }

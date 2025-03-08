@@ -154,7 +154,7 @@ const ModernProductLayout: React.FC<ModernProductLayoutProps> = ({
 
       {/* Product Selection Tabs (if multiple products) */}
       {products.length > 1 && (
-        <div className="border-b border-gray-100 bg-[#f8f8f8] py-10" >
+        <div className="border-b border-gray-100 bg-[#f8f8f8] py-10">
           <div className="container mx-auto px-4">
             <div className="mb-8 text-center">
               <span className="mb-2 block text-xs uppercase tracking-widest text-gray-500">
@@ -174,7 +174,7 @@ const ModernProductLayout: React.FC<ModernProductLayoutProps> = ({
                 }
               }}
               className="w-full"
-            id="model"
+              id="model"
             >
               <TabsList className="mx-auto flex h-auto w-full max-w-3xl flex-wrap justify-center gap-3 bg-transparent">
                 {products.map((product) => (
@@ -573,8 +573,12 @@ const ModernProductLayout: React.FC<ModernProductLayoutProps> = ({
           </div>
         </section>
       )}
-
-      <CallToAction />
+      <CallToAction
+        buttons={[
+          { name: "Download Resource", path: "/download" },
+          { name: "Contact Us", path: "/contact" },
+        ]}
+      />
     </div>
   );
 };

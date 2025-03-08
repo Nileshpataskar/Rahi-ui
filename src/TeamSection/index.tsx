@@ -1,0 +1,32 @@
+import { teamData } from "./teamData";
+import TeamMember from "./TeamMember";
+
+const TeamSection = () => {
+  return (
+    <section className="bg-[#f8f8f8] px-4 py-40">
+      <div className="container mx-auto max-w-6xl">
+        <div className="mb-24 text-center">
+          <span className="mb-8 block text-xs font-medium uppercase tracking-[0.4em] text-[#c0a062]">
+            Our People
+          </span>
+          <h2 className="mb-10 font-['Playfair_Display',serif] text-5xl font-extralight tracking-tight text-gray-900">
+            Leadership Team
+          </h2>
+          <div className="mx-auto mb-12 h-px w-32 bg-[#c0a062]"></div>
+          <p className="mx-auto max-w-2xl text-lg font-extralight leading-relaxed tracking-wide text-gray-600">
+            Meet the visionaries guiding our company toward continued excellence
+            and innovation
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 gap-16 md:grid-cols-3">
+          {teamData.map((member, index) => (
+            <TeamMember key={member.id} member={member} delay={index * 0.1} />
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default TeamSection;
