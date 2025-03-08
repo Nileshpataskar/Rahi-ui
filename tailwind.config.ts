@@ -1,9 +1,15 @@
 import type { Config } from "tailwindcss";
-const colors = require("tailwindcss/colors");
+const { default: flattenColorPalette } = require("tailwindcss/lib/util/flattenColorPalette");
 
-const {
-  default: flattenColorPalette,
-} = require("tailwindcss/lib/util/flattenColorPalette");
+// Import specific colors instead of all colors
+const { 
+  sky,
+  stone,
+  neutral,
+  gray,
+  slate,
+  // ... other colors you need
+} = require("tailwindcss/colors");
 
 const config: Config = {
   darkMode: ["class", "class"],
@@ -19,8 +25,13 @@ const config: Config = {
         madefor: ["Wix Madefor Display"],
       },
       colors: {
-        ...colors,
-
+        // Use new color names
+        sky,      // instead of lightBlue
+        stone,    // instead of warmGray
+        neutral,  // instead of trueGray
+        gray,     // instead of coolGray
+        slate,    // instead of blueGray
+        
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",

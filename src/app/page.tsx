@@ -4,19 +4,11 @@ import CallToAction from "@/components/CallToAction";
 import Clients from "@/components/Clients";
 import ScrollUp from "@/components/Common/ScrollUp";
 import Contact from "@/components/Contact";
-import Faq from "@/components/Faq";
 import WhoAreWe from "@/components/WhoAreWe";
-import Hero from "@/components/Hero";
-import Products from "@/components/Products";
-import Team from "@/components/Team";
-import { Metadata } from "next";
+
 import OurMission from "@/components/OurMission";
 import HeroSection from "@/components/Trying/Hero1";
-import { useEffect, useRef, useState } from "react";
-import { Button } from "@/components/ui/button";
 import WhyChooseUs from "@/components/WhyChooseUs";
-import ProductCarousel from "@/components/ProductCarousel";
-import menuData from "@/components/Header/menuData";
 import TeamSection from "@/TeamSection";
 import { ProductShowcaseSection } from "@/components/ProductShowcase";
 

@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 
 export interface ProductCarouselItem {
   id: string;
@@ -73,7 +74,9 @@ const ProductCarousel: React.FC<ProductCarouselProps> = ({
                     "linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.4) 30%, rgba(0,0,0,0.1) 60%, rgba(0,0,0,0) 100%)",
                 }}
               ></div>
-              <img
+              <Image
+                width={800}
+                height={450}
                 src={items[currentIndex].image}
                 alt={items[currentIndex].title}
                 className="duration-10000 h-full w-full scale-105 object-cover object-center transition-transform ease-in-out"
