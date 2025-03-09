@@ -196,8 +196,11 @@ const About: React.FC = () => {
         </div>
       </section>
 
+      <div className=" my-20">
+        <TeamSection />
+      </div>
       {/* Team Section */}
-      <TeamSection />
+
       <CallToAction
         buttons={[
           { name: "Home", path: "/" },

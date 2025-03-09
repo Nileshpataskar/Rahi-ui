@@ -109,14 +109,20 @@ const menuData: Menu[] = [
 
       {
         id: 72,
-        title: "PVC Conduit Pipe Accesaries",
+        title: "PVC Conduit Pipe Accesories",
         path: "/products/pipeaccesories",
         newTab: false,
         subMenu: [
-          { name: "Bend", path: "/a" },
-          { name: "Coupler", path: "/b" },
-          { name: "Deep Junction Box", path: "/b" },
-          { name: "Junction Box", path: "/b" },
+          { name: "Bend", path: "/products/pipeaccesories/bend" },
+          { name: "Coupler", path: "/products/pipeaccesories/coupler" },
+          {
+            name: "Junction Box",
+            path: "/products/pipeaccesories/junctionbox",
+          },
+          {
+            name: "Deep Junction Box",
+            path: "/products/pipeaccesories/deepjunction",
+          },
         ],
       },
       {
