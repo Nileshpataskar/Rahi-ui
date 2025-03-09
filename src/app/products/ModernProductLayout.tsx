@@ -8,6 +8,7 @@ import {
   ChevronRight,
   ChevronLeft,
   Shield,
+  Dot,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -17,6 +18,7 @@ import Image from "next/image";
 import CallToAction from "@/components/CallToAction";
 import { cn } from "@/lib/utils";
 import { convertImageHelper } from "../convertImageHelper";
+import Link from "next/link";
 
 const ModernProductLayout: React.FC<ModernProductLayoutProps> = ({
   products,
@@ -106,7 +108,7 @@ const ModernProductLayout: React.FC<ModernProductLayoutProps> = ({
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="relative overflow-hidden  pb-24 pt-44 text-white">
+      <section className="relative overflow-hidden  bg-[#f8f8f8] pb-32 pt-44 text-gray-900">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(17,24,39,0.7),rgba(17,24,39,0.9))]" />
         <div
           className="absolute inset-0 z-0"
@@ -135,21 +137,6 @@ const ModernProductLayout: React.FC<ModernProductLayoutProps> = ({
             <p className="mx-auto max-w-2xl text-lg font-light leading-relaxed text-gray-300">
               {heroDescription || activeProduct.description}
             </p>
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.3 }}
-              className="mt-10 flex flex-wrap justify-center gap-6"
-            >
-              <a href="#model">
-                <Button
-                  size="lg"
-                  className="rounded-none bg-white px-8 py-6 text-sm font-light uppercase tracking-widest text-black hover:bg-white/90"
-                >
-                  Discover Details
-                </Button>
-              </a>
-            </motion.div>
           </motion.div>
         </div>
       </section>
@@ -305,8 +292,8 @@ const ModernProductLayout: React.FC<ModernProductLayoutProps> = ({
                       key={index}
                       className="flex items-center border-b border-gray-100 px-2 py-3 transition-colors hover:bg-gray-50"
                     >
-                      <div className="mr-3 flex h-4 w-4 flex-shrink-0 items-center justify-center bg-black text-xs text-white">
-                        <Check className="h-2.5 w-2.5" />
+                      <div className="mr-3 flex h-2 w-2 flex-shrink-0 items-center justify-center rounded-3xl bg-black text-xs text-white">
+                        {/* <Dot className="h-2.5 w-2.5" /> */}
                       </div>
                       <span className="font-light text-gray-700">
                         {feature}
@@ -440,14 +427,16 @@ const ModernProductLayout: React.FC<ModernProductLayoutProps> = ({
                 </div>
               </div>
 
-              <div className="mt-12 text-center">
-                <Button
-                  variant="outline"
-                  className="rounded-none border-white px-8 py-3 text-xs font-light uppercase tracking-widest  text-gray-700 transition-colors duration-300 hover:bg-white hover:text-gray-950 "
-                >
-                  <Download className="mr-2 h-4 w-4" /> Download Datasheet
-                </Button>
-              </div>
+              {/* <div className="mt-12 text-center">
+                <Link href='/download#downloadsection'>
+                  <Button
+                    variant="outline"
+                    className="rounded-none border-white px-8 py-3 text-xs font-light uppercase tracking-widest  text-gray-700 transition-colors duration-300 hover:bg-white hover:text-gray-950 "
+                  >
+                    <Download className="mr-2 h-4 w-4" /> Download Datasheet
+                  </Button>
+                </Link>
+              </div> */}
             </div>
           </section>
         )}

@@ -44,13 +44,13 @@ const menuData: Menu[] = [
       {
         id: 63,
         title: "Double Door MCB Box",
-        path: "/products/electric-distribution-box",
+        path: "",
         newTab: false,
         subMenu: [
-          { name: "Prime Series SPN Double Door MCB Box", path: "/a" },
-          { name: "Prime series TPN Double Door MCB Box", path: "/b" },
-          { name: "Standard Series SPN Double Door MCB Box", path: "/b" },
-          { name: "Standard series TPN Double Door MCB Box", path: "/b" },
+          { name: "Prime Series SPN Double Door MCB Box", path: "/products/doubleMCB/spn" },
+          { name: "Prime series TPN Double Door MCB Box", path: "/products/doubleMCB/tpn" },
+          { name: "Standard Series SPN Double Door MCB Box", path: "/products/doubleMCB/stdspn" },
+          { name: "Standard series TPN Double Door MCB Box", path: "/products/doubleMCB/stdtpn" },
         ],
       },
       {

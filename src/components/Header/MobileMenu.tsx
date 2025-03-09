@@ -38,33 +38,52 @@ const MobileMenu: React.FC<MobileMenuProps> = ({
 
     return (
       <div key={item.id} className="w-full">
-        <div
-          className={`flex items-center justify-between px-4 py-3 transition-colors ${isDarkMode ? "hover:bg-gray-800/50" : "hover:bg-gray-50"}`}
-          onClick={() => hasChildren && toggleExpand(item.id)}
-        >
-          <a
-            href={item.path}
-            className={`flex items-center gap-3 transition-colors ${isDarkMode ? "text-white hover:text-primary" : "text-gray-800 hover:text-primary"}`}
-            onClick={(e) => hasChildren && e.preventDefault()}
-            target={item.newTab ? "_blank" : "_self"}
-            rel={item.newTab ? "noopener noreferrer" : ""}
+        {hasChildren ? (
+          <div
+            className={`flex cursor-pointer items-center justify-between px-4 py-3 transition-colors ${
+              isDarkMode ? "hover:bg-gray-800/50" : "hover:bg-gray-50"
+            }`}
+            onClick={() => toggleExpand(item.id)}
           >
-            <span className="text-base font-medium">{item.title}</span>
-          </a>
-          {hasChildren && (
-            <Button
-              variant="ghost"
-              size="sm"
-              className="h-auto p-0 text-primary"
+            <span
+              className={`flex items-center gap-3 transition-colors ${
+                isDarkMode
+                  ? "text-white hover:text-primary"
+                  : "text-gray-800 hover:text-primary"
+              }`}
             >
+              <span className="text-base font-medium">{item.title}</span>
+            </span>
+            <Button variant="ghost" size="sm" className="h-auto p-0 text-white">
               {isExpanded ? (
                 <ChevronDown size={18} />
               ) : (
                 <ChevronRight size={18} />
               )}
             </Button>
-          )}
-        </div>
+          </div>
+        ) : (
+          <a
+            href={item.path}
+            className={`block transition-colors ${
+              isDarkMode ? "hover:bg-gray-800/50" : "hover:bg-gray-50"
+            }`}
+            target={item.newTab ? "_blank" : "_self"}
+            rel={item.newTab ? "noopener noreferrer" : ""}
+          >
+            <div className={`flex items-center px-4 py-3`}>
+              <span
+                className={`flex items-center gap-3 transition-colors ${
+                  isDarkMode
+                    ? "text-white hover:text-primary"
+                    : "text-gray-800 hover:text-primary"
+                }`}
+              >
+                <span className="text-base font-medium">{item.title}</span>
+              </span>
+            </div>
+          </a>
+        )}
 
         {hasChildren && (
           <AnimatePresence>
@@ -95,24 +114,26 @@ const MobileMenu: React.FC<MobileMenuProps> = ({
 
     return (
       <div key={item.id} className="w-full">
-        <div
-          className={`flex items-center justify-between px-8 py-3 transition-colors ${isDarkMode ? "hover:bg-gray-700/80" : "hover:bg-gray-100/80"}`}
-          onClick={() => hasSubMenu && toggleSubExpand(item.id)}
-        >
-          <a
-            href={item.path}
-            className={`flex items-center gap-3 transition-colors ${isDarkMode ? "text-gray-200 hover:text-primary" : "text-gray-800 hover:text-primary"}`}
-            onClick={(e) => hasSubMenu && e.preventDefault()}
-            target={item.newTab ? "_blank" : "_self"}
-            rel={item.newTab ? "noopener noreferrer" : ""}
+        {hasSubMenu ? (
+          <div
+            className={`flex cursor-pointer items-center justify-between px-8 py-3 transition-colors ${
+              isDarkMode ? "hover:bg-gray-700/80" : "hover:bg-gray-100/80"
+            }`}
+            onClick={() => toggleSubExpand(item.id)}
           >
-            <span className="text-sm font-medium">{item.title}</span>
-          </a>
-          {hasSubMenu && (
+            <span
+              className={`flex items-center gap-3 transition-colors ${
+                isDarkMode
+                  ? "text-gray-200 hover:text-primary"
+                  : "text-gray-800 hover:text-primary"
+              }`}
+            >
+              <span className="text-sm font-medium">{item.title}</span>
+            </span>
             <Button
               variant="ghost"
               size="sm"
-              className="h-auto p-0 text-primary"
+              className="h-auto p-0 text-white"
             >
               {isExpanded ? (
                 <ChevronDown size={16} />
@@ -120,8 +141,29 @@ const MobileMenu: React.FC<MobileMenuProps> = ({
                 <ChevronRight size={16} />
               )}
             </Button>
-          )}
-        </div>
+          </div>
+        ) : (
+          <a
+            href={item.path}
+            className={`block transition-colors ${
+              isDarkMode ? "hover:bg-gray-700/80" : "hover:bg-gray-100/80"
+            }`}
+            target={item.newTab ? "_blank" : "_self"}
+            rel={item.newTab ? "noopener noreferrer" : ""}
+          >
+            <div className={`flex items-center px-8 py-3`}>
+              <span
+                className={`flex items-center gap-3 transition-colors ${
+                  isDarkMode
+                    ? "text-gray-200 hover:text-primary"
+                    : "text-gray-800 hover:text-primary"
+                }`}
+              >
+                <span className="text-sm font-medium">{item.title}</span>
+              </span>
+            </div>
+          </a>
+        )}
 
         {hasSubMenu && (
           <AnimatePresence>
@@ -134,14 +176,17 @@ const MobileMenu: React.FC<MobileMenuProps> = ({
                 className={`overflow-hidden ${isDarkMode ? "bg-gray-700/80" : "bg-gray-100/80"} backdrop-blur-sm`}
               >
                 {item.subMenu?.map((subItem, index) => (
-                  <div key={index} className="w-full">
-                    <a
-                      href={subItem.path}
-                      className={`block px-12 py-2 text-sm transition-colors ${isDarkMode ? "text-gray-300 hover:bg-gray-600/50 hover:text-primary" : "text-gray-700 hover:bg-gray-200/50 hover:text-primary"}`}
-                    >
-                      {subItem.name}
-                    </a>
-                  </div>
+                  <a
+                    key={index}
+                    href={subItem.path}
+                    className={`block px-12 py-2 text-sm transition-colors ${
+                      isDarkMode
+                        ? "text-gray-300 hover:bg-gray-600/50 hover:text-primary"
+                        : "text-gray-700 hover:bg-gray-200/50 hover:text-primary"
+                    }`}
+                  >
+                    {subItem.name}
+                  </a>
                 ))}
               </motion.div>
             )}
@@ -191,7 +236,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({
                   onClick={onClose}
                   className={`${isDarkMode ? "text-white hover:bg-white/10" : "text-primary hover:bg-primary/10"}`}
                 >
-                  <X size={20} />
+                  <X size={40} />
                 </Button>
               </div>
 

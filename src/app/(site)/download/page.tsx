@@ -96,103 +96,12 @@ const DownloadsPage: React.FC = () => {
               Access our premium collection of resources, documentation, and
               specifications
             </p>
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.3 }}
-              className="mt-10 flex flex-wrap justify-center gap-6"
-            >
-              <a href="#model">
-                <Button
-                  size="lg"
-                  className="rounded-none bg-white px-8 py-6 text-sm font-light uppercase tracking-widest text-black hover:bg-white/90"
-                >
-                  Discover Details
-                </Button>
-              </a>
-            </motion.div>
           </motion.div>
         </div>
       </section>
 
-      {/* Search and Filters Section */}
-      <section
-        className="border-t border-gray-100 bg-white px-4 py-16"
-        id="model"
-      >
-        <div className="container mx-auto max-w-6xl">
-          <div className="border border-gray-200 bg-[#f9f9f9] p-10 shadow-lg">
-            <div className="grid grid-cols-1 items-end gap-8 md:grid-cols-12">
-              <div className="md:col-span-6">
-                <label className="mb-3 block text-xs uppercase tracking-[0.2em] text-gray-500">
-                  Search Resources
-                </label>
-                <div className="relative">
-                  <Search className="absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 transform text-gray-400" />
-                  <Input
-                    type="text"
-                    placeholder="Search by title or description..."
-                    className="rounded-none border-gray-300 bg-white py-6 pl-12 text-gray-900 focus-visible:border-gray-400 focus-visible:ring-gray-400 focus-visible:ring-offset-0"
-                    value={searchQuery}
-                    onChange={(e) => setSearchQuery(e.target.value)}
-                  />
-                </div>
-              </div>
-              <div className="md:col-span-3">
-                <label className="mb-3 block text-xs uppercase tracking-[0.2em] text-gray-500">
-                  Category
-                </label>
-                <Select
-                  value={categoryFilter}
-                  onValueChange={setCategoryFilter}
-                >
-                  <SelectTrigger className="h-[50px] rounded-none border-gray-300 bg-white text-gray-900 focus:ring-gray-400 focus:ring-offset-0">
-                    <SelectValue placeholder="All Categories" />
-                  </SelectTrigger>
-                  <SelectContent className="rounded-none border-gray-200 bg-white text-gray-900">
-                    {categories.map((category) => (
-                      <SelectItem
-                        key={category}
-                        value={category}
-                        className="focus:bg-gray-100 focus:text-gray-900"
-                      >
-                        {category === "all"
-                          ? "All Categories"
-                          : category.charAt(0).toUpperCase() +
-                            category.slice(1)}
-                      </SelectItem>
-                    ))}
-                  </SelectContent>
-                </Select>
-              </div>
-              <div className="md:col-span-3">
-                <label className="mb-3 block text-xs uppercase tracking-[0.2em] text-gray-500">
-                  Year
-                </label>
-                <Select value={yearFilter} onValueChange={setYearFilter}>
-                  <SelectTrigger className="h-[50px] rounded-none border-gray-300 bg-white text-gray-900 focus:ring-gray-400 focus:ring-offset-0">
-                    <SelectValue placeholder="All Years" />
-                  </SelectTrigger>
-                  <SelectContent className="rounded-none border-gray-200 bg-white text-gray-900">
-                    {years.map((year) => (
-                      <SelectItem
-                        key={year}
-                        value={year}
-                        className="focus:bg-gray-100 focus:text-gray-900"
-                      >
-                        {year === "all" ? "All Years" : year}
-                      </SelectItem>
-                    ))}
-                  </SelectContent>
-                </Select>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Downloads Section */}
-      <section className="bg-white px-4 py-10">
+      <section className="bg-white px-4 py-10" id="downloadsection">
         <div className="container mx-auto max-w-6xl">
           <div className="mb-16 text-center">
             <span className="mb-3 block text-xs uppercase tracking-[0.2em] text-[#c0a062]">
