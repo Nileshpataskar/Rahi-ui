@@ -1,12 +1,26 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: [
-      "images.unsplash.com",
-      "picsum.photos",
-      "api.dicebear.com",
-      "tiimg.tistatic.com",
-      "drive.google.com",
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
+      },
+      {
+        protocol: "https",
+        hostname: "picsum.photos",
+      },
+      {
+        protocol: "https",
+        hostname: "api.dicebear.com",
+      },
+      {
+        protocol: "https",
+        hostname: "tiimg.tistatic.com",
+      },
+      {
+        protocol: "https",
+        hostname: "drive.google.com",
+      },
     ],
   },
 };
