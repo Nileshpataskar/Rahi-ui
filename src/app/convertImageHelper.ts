@@ -1,4 +1,9 @@
-export const convertGoogledriveImage = (url: string): string => {
-  const match = url.match(/\/d\/([a-zA-Z0-9_-]+)\//);
-  return match ? `https://drive.google.com/uc?export=view&id=${match[1]}` : url;
-};
+export function convertGoogledriveImage(url: string): string {
+  if (url.includes("drive.google.com")) {
+    const fileId = url.match(/\/d\/(.*?)\/view/)?.[1];
+    if (fileId) {
+      return `https://drive.google.com/uc?export=view&id=${fileId}`;
+    }
+  }
+  return url;
+}
