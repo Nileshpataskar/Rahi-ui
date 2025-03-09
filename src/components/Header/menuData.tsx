@@ -13,7 +13,6 @@ const menuData: Menu[] = [
     title: "Home",
     path: "/",
     newTab: false,
-    
   },
   {
     id: 2,
@@ -32,8 +31,14 @@ const menuData: Menu[] = [
         path: "/products/modular_metal_box",
         newTab: false,
         subMenu: [
-          { name: "Copper BUS Bar Chamber", path: "/a" },
-          { name: "Copper Bus Bar chamber with HRC Fuse base", path: "/b" },
+          {
+            name: "Copper BUS Bar Chamber",
+            path: "/products/BusBar/copper-bus-bar",
+          },
+          {
+            name: "Copper Bus Bar chamber with HRC Fuse base",
+            path: "/products/BusBar/copper-bus-bar-hrc",
+          },
         ],
       },
       {
@@ -101,7 +106,7 @@ const menuData: Menu[] = [
         path: "/products/nonisipvcpipe",
         newTab: false,
       },
-      
+
       {
         id: 72,
         title: "PVC Conduit Pipe Accesaries",
@@ -111,7 +116,8 @@ const menuData: Menu[] = [
           { name: "Bend", path: "/a" },
           { name: "Coupler", path: "/b" },
           { name: "Deep Junction Box", path: "/b" },
-          { name: "Junction Box", path: "/b" },]
+          { name: "Junction Box", path: "/b" },
+        ],
       },
       {
         id: 73,

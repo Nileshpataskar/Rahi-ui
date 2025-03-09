@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { TeamMember as TeamMemberType } from "@/TeamSection/teamData";
-import { convertGoogledriveImage } from "@/app/convertImageHelper";
+import { convertImageHelper } from "@/app/convertImageHelper";
 
 interface TeamMemberProps {
   member: TeamMemberType;
@@ -22,7 +22,7 @@ const TeamMember = ({ member, delay = 0 }: TeamMemberProps) => {
         <Image
           width={800}
           height={450}
-          src={convertGoogledriveImage(member.image)}
+          src={convertImageHelper(member.image)}
           alt={member.name}
           className="aspect-[3/4] w-full object-cover grayscale filter transition-all duration-1000 group-hover:grayscale-0"
         />

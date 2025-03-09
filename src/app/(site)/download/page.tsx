@@ -24,7 +24,7 @@ import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
 import CallToAction from "@/components/CallToAction";
 import { DownloadItem, downloadItems } from "./downloadItems";
-import { convertGoogledriveImage } from "@/app/convertImageHelper";
+import { convertImageHelper } from "@/app/convertImageHelper";
 
 const DownloadsPage: React.FC = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -327,7 +327,7 @@ const DownloadCard: React.FC<{ item: DownloadItem }> = ({ item }) => {
           <Image
             src={
               item.thumbnail
-                ? convertGoogledriveImage(item.thumbnail)
+                ? convertImageHelper(item.thumbnail)
                 : `https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=500&q=80`
             }
             width={800}

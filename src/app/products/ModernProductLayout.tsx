@@ -15,7 +15,8 @@ import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ModernProductLayoutProps, Product } from "./types";
 import Image from "next/image";
 import CallToAction from "@/components/CallToAction";
-import { convertGoogledriveImage } from "../convertImageHelper";
+import { cn } from "@/lib/utils";
+import { convertImageHelper } from "../convertImageHelper";
 
 const ModernProductLayout: React.FC<ModernProductLayoutProps> = ({
   products,
@@ -206,7 +207,7 @@ const ModernProductLayout: React.FC<ModernProductLayoutProps> = ({
             >
               <div className="relative aspect-[4/3] overflow-hidden">
                 <Image
-                  src={convertGoogledriveImage(allImages[currentImageIndex])}
+                  src={convertImageHelper(allImages[currentImageIndex])}
                   alt={activeProduct.title}
                   width={800}
                   height={600}
@@ -258,7 +259,7 @@ const ModernProductLayout: React.FC<ModernProductLayoutProps> = ({
                       <Image
                         width={800}
                         height={600}
-                        src={convertGoogledriveImage(img)}
+                        src={convertImageHelper(img)}
                         alt={`Thumbnail ${index + 1}`}
                         className="h-full w-full object-cover"
                       />
@@ -537,7 +538,7 @@ const ModernProductLayout: React.FC<ModernProductLayoutProps> = ({
                         <Image
                           width={800}
                           height={450}
-                          src={product.image}
+                          src={convertImageHelper(product.image)}
                           alt={product.title}
                           className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
                         />

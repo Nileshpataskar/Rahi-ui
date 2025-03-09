@@ -1,5 +1,4 @@
 import HorizontalProductScroll from "./HorizontalProductScroll";
-import { convertGoogledriveImage } from "@/app/convertImageHelper";
 
 // Add interface for Product
 interface Product {
@@ -22,31 +21,42 @@ export const showcaseProducts: ShowcaseProduct[] = [
   {
     id: "1",
     title: "ABS Door MCB Box",
-    image: "https://drive.google.com/file/d/1sOcjR1VAaw3CC520D8xdWy5toFsTs5y8/view?usp=drive_link",
+    image:
+      "https://drive.google.com/file/d/1sOcjR1VAaw3CC520D8xdWy5toFsTs5y8/view?usp=drive_link",
     path: "/products/mcbbox",
     category: "MCB Box",
   },
   {
     id: "2",
-    title: "BUS Bar Chambers",
-    image: "https://drive.google.com/file/d/1sOcjR1VAaw3CC520D8xdWy5toFsTs5y8/view?usp=drive_link",
-    path: "/products/modular_metal_box",
+    title: "Bus Bar Chambers",
+    image:
+      "https://drive.google.com/file/d/10-UxeyA2Ud-73yROGFwJh1yxIs6JNPoQ/view?usp=drive_link",
+    path: "/products/BusBar/copper-bus-bar",
     category: "Bus Bar",
   },
   {
     id: "3",
-    title: "MCB Box",
-    image: "https://drive.google.com/file/d/1sOcjR1VAaw3CC520D8xdWy5toFsTs5y8/view?usp=drive_link",
-    path: "/products/modular_metal_box",
+    title: "Bus Bar Chamber - HRC",
+    image:
+      "https://drive.google.com/file/d/1sOcjR1VAaw3CC520D8xdWy5toFsTs5y8/view?usp=drive_link",
+    path: "/products/BusBar/copper-bus-bar-hrc",
     category: "Bus Bar",
+  },
+  {
+    id: "4",
+    title: "Double Door MCB Box",
+    image:
+      "https://drive.google.com/file/d/17sM0fPJywp1aloTjomV1ESG5pOq3WOcS/view?usp=sharing",
+    path: "/products/BusBar/copper-bus-bar-hrc",
+    category: "Double Door MCB Box",
   },
 ];
 
 export const ProductShowcaseSection: React.FC = () => {
   // Convert Google Drive links to direct image URLs
-  const processedProducts = showcaseProducts.map(product => ({
+  const processedProducts = showcaseProducts.map((product) => ({
     ...product,
-    image: convertGoogledriveImage(product.image)
+    image: product.image,
   }));
 
   return (

@@ -4,7 +4,7 @@ import { ChevronLeft, ChevronRight, ArrowRight, Plus } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
-import { convertGoogledriveImage } from "@/app/convertImageHelper";
+import { convertImageHelper } from "@/app/convertImageHelper";
 
 export interface Product {
   id: string;
@@ -107,11 +107,11 @@ const HorizontalProductScroll: React.FC<HorizontalProductScrollProps> = ({
                 <div className="relative mb-4 aspect-square overflow-hidden bg-black">
                   {/* Product image with grayscale effect that turns to color on hover */}
                   <Image
+                    src={convertImageHelper(product.image)}
+                    alt={product.title}
                     width={800}
                     height={450}
-                    src={convertGoogledriveImage(product.image)}
-                    alt={product.title}
-                    className="h-full w-full object-cover grayscale filter transition-all duration-700 ease-out group-hover:scale-110 group-hover:grayscale-0"
+                    className="h-full w-full object-cover transition-transform duration-1000 group-hover:scale-110"
                   />
 
                   {/* Overlay with gradient */}
