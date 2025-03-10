@@ -19,6 +19,7 @@ import CallToAction from "@/components/CallToAction";
 import { cn } from "@/lib/utils";
 import { convertImageHelper } from "../convertImageHelper";
 import Link from "next/link";
+import ImageLoader from "../ImageLoader";
 
 const ModernProductLayout: React.FC<ModernProductLayoutProps> = ({
   products,
@@ -193,13 +194,12 @@ const ModernProductLayout: React.FC<ModernProductLayoutProps> = ({
               className="relative order-2 lg:order-1 lg:col-span-7"
             >
               <div className="relative aspect-[4/3] overflow-hidden">
-                <Image
+                <ImageLoader
                   src={convertImageHelper(allImages[currentImageIndex])}
                   alt={activeProduct.title}
                   width={800}
                   height={600}
                   className="h-full w-full object-cover shadow-xl"
-                  priority
                 />
 
                 {allImages.length > 1 && (
@@ -243,7 +243,7 @@ const ModernProductLayout: React.FC<ModernProductLayoutProps> = ({
                       onClick={() => setCurrentImageIndex(index)}
                       className={`h-20 w-20 flex-shrink-0 overflow-hidden transition-all duration-300 ${index === currentImageIndex ? "scale-105 ring-1 ring-black" : "opacity-60 hover:opacity-100"}`}
                     >
-                      <Image
+                      <ImageLoader
                         width={800}
                         height={600}
                         src={convertImageHelper(img)}
@@ -524,7 +524,7 @@ const ModernProductLayout: React.FC<ModernProductLayoutProps> = ({
                     >
                       <div className="relative aspect-[4/3] overflow-hidden">
                         <div className="absolute inset-0 z-10 bg-black/0 transition-colors duration-500 group-hover:bg-black/10"></div>
-                        <Image
+                        <ImageLoader
                           width={800}
                           height={450}
                           src={convertImageHelper(product.image)}

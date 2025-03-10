@@ -12,6 +12,7 @@ import {
   Recycle,
 } from "lucide-react";
 import Image from "next/image";
+import ImageLoader from "@/app/ImageLoader";
 
 const stats = [
   { icon: Building2, label: "Manufacturing Units", value: "5+" },
@@ -167,7 +168,7 @@ function AboutPage() {
                 transition={{ duration: 0.6, delay: 0.2 }}
                 className="relative h-[400px] overflow-hidden rounded-lg"
               >
-                <Image
+                <ImageLoader
                   width={800}
                   height={400}
                   src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800"
@@ -244,7 +245,7 @@ function AboutPage() {
                   className="text-center"
                 >
                   <div className="mx-auto mb-4 h-32 w-32 overflow-hidden rounded-full bg-muted">
-                    <Image
+                    <ImageLoader
                       width={800}
                       height={400}
                       src={member.image}

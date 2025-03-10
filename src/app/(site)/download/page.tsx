@@ -25,6 +25,7 @@ import { Badge } from "@/components/ui/badge";
 import CallToAction from "@/components/CallToAction";
 import { DownloadItem, downloadItems } from "./downloadItems";
 import { convertImageHelper } from "@/app/convertImageHelper";
+import ImageLoader from "@/app/ImageLoader";
 
 const DownloadsPage: React.FC = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -233,7 +234,7 @@ const DownloadCard: React.FC<{ item: DownloadItem }> = ({ item }) => {
       <Card className="group h-full cursor-pointer overflow-hidden border  border-gray-200 bg-white transition-all duration-700 hover:shadow-2xl">
         <div className="relative aspect-[4/3] overflow-hidden">
           <div className="absolute inset-0 z-10 bg-black/0 transition-colors duration-500 group-hover:bg-black/10"></div>
-          <Image
+          <ImageLoader
             src={
               item.thumbnail
                 ? convertImageHelper(item.thumbnail)
