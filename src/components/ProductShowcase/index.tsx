@@ -34,14 +34,14 @@ export const showcaseProducts: ShowcaseProduct[] = [
     path: "/products/BusBar/copper-bus-bar",
     category: "Bus Bar",
   },
-  {
-    id: "3",
-    title: "Bus Bar Chamber - HRC",
-    image:
-      "https://drive.google.com/file/d/17GLjQQsl8m2PU2pE2coHizKlWr_Fb86l/view?usp=sharing",
-    path: "/products/BusBar/copper-bus-bar-hrc",
-    category: "Bus Bar",
-  },
+  // {
+  //   id: "3",
+  //   title: "Bus Bar Chamber - HRC",
+  //   image:
+  //     "https://drive.google.com/file/d/17GLjQQsl8m2PU2pE2coHizKlWr_Fb86l/view?usp=sharing",
+  //   path: "/products/BusBar/copper-bus-bar-hrc",
+  //   category: "Bus Bar",
+  // },
   {
     id: "4",
     title: "Double Door MCB Box",
@@ -103,7 +103,7 @@ export const showcaseProducts: ShowcaseProduct[] = [
     title: "NOVA SERIES NON ISI PVC Conduit Pipe",
     image:
       "https://drive.google.com/file/d/1sy6W5OTsywWp6qCubB8vkCj8gl9Z80oL/view?usp=drive_link",
-    path: "/products/surfacebox",
+    path: "/products/nonisipipe",
     category: "PVC Conduit Pipe",
   },
   {

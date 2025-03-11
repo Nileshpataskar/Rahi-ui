@@ -56,17 +56,17 @@ const menuData: Menu[] = [
       {
         id: 64,
         title: "Double door Mcb box with TV-TEL",
-        path: "/products/metalEnclosure",
+        path: "/products/",
         newTab: false,
         subMenu: [
-          { name: "SPN Double Door Mcb box with TV-Tel", path: "/a" },
-          { name: "TPN Double Door Mcb box with TV-Tel", path: "/b" },
+          { name: "SPN Double Door Mcb box with TV-Tel", path: "/products/doubleMCB-TV-Tel/spn" },
+          { name: "TPN Double Door Mcb box with TV-Tel", path: "/products/doubleMCB-TV-Tel/tpn" },
         ],
       },
       {
         id: 66,
         title: "ISI PVC Conduit Pipe",
-        path: "/products/busbar",
+        path: "/products/conduitpipe",
         newTab: false,
       },
       {
@@ -85,13 +85,13 @@ const menuData: Menu[] = [
       {
         id: 68,
         title: "Modular Double Wall Surface box",
-        path: "/products/conduitpipe",
+        path: "/products/surfacebox",
         newTab: false,
       },
       {
         id: 69,
         title: "Modular GI Metal Box",
-        path: "/products/conduit-pipe-accesories",
+        path: "/products/modulargimetalbox",
         newTab: false,
       },
       {
@@ -103,7 +103,7 @@ const menuData: Menu[] = [
       {
         id: 71,
         title: "NOVA SERIES NON ISI PVC Conduit Pipe",
-        path: "/products/nonisipvcpipe",
+        path: "/products/nonisipipe",
         newTab: false,
       },
 

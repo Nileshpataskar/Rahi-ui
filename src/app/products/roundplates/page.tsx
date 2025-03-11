@@ -15,7 +15,7 @@ const RoundPlates: React.FC = () => {
     "Precision-engineered round plates",
     "Multiple size options available",
     "Standard packing quantities",
-    "Durable construction for long-lasting use"
+    "Durable construction for long-lasting use",
   ];
 
   const roundPlateProducts: Product[] = [
@@ -32,9 +32,9 @@ const RoundPlates: React.FC = () => {
         Type: "Round Plate",
         "Standard Packing": "100nos",
         Material: "High-quality material",
-        Application: "Electrical installations"
+        Application: "Electrical installations",
       },
-      category: "Round Plate"
+      category: "Round Plate",
     },
     {
       id: "2",
@@ -49,9 +49,9 @@ const RoundPlates: React.FC = () => {
         Type: "Round Plate",
         "Standard Packing": "100nos",
         Material: "High-quality material",
-        Application: "Electrical installations"
+        Application: "Electrical installations",
       },
-      category: "Round Plate"
+      category: "Round Plate",
     },
     {
       id: "3",
@@ -60,16 +60,16 @@ const RoundPlates: React.FC = () => {
       description:
         "6 inch fan plate specifically designed for ceiling fan installations.",
       image:
-        "https://drive.google.com/file/d/1ozP10Z-IfcUSENVt9jCvzk-c8s8MzKxu/view?usp=drive_link",
+        "https://drive.google.com/file/d/1597zMgbzh10aQNWASf4ttsOe3psv41UF/view?usp=drive_link",
       specifications: {
         Size: "6 inch",
         Type: "Fan Plate",
         "Standard Packing": "50nos",
         Material: "High-quality material",
-        Application: "Fan installations"
+        Application: "Fan installations",
       },
-      category: "Round Plate"
-    }
+      category: "Round Plate",
+    },
   ];
 
   // Updated benefits for Round Plates products
