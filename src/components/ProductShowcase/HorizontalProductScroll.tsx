@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { convertImageHelper } from "@/app/convertImageHelper";
+import ImageLoader from "@/app/ImageLoader";
 
 export interface Product {
   id: string;
@@ -106,7 +107,7 @@ const HorizontalProductScroll: React.FC<HorizontalProductScrollProps> = ({
               <a href={product.path} className="group block">
                 <div className="relative mb-4 aspect-square overflow-hidden bg-black">
                   {/* Product image with grayscale effect that turns to color on hover */}
-                  <Image
+                  <ImageLoader
                     src={convertImageHelper(product.image)}
                     alt={product.title}
                     width={800}

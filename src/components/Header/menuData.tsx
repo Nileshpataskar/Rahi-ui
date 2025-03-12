@@ -72,14 +72,14 @@ const menuData: Menu[] = [
       {
         id: 67,
         title: "MCB Metal Enclosures",
-        path: "/products/surfacebox",
+        path: "/products/",
         newTab: false,
 
         subMenu: [
-          { name: "ABS Double Door MCB Box", path: "/a" },
-          { name: "PVC MCB Box with Metal Back", path: "/b" },
-          { name: "SPN Metal Enclosures", path: "/b" },
-          { name: "TPN Metal Enclosures", path: "/b" },
+          { name: "ABS Double Door MCB Box", path: "/products/mcbmetalenc/abs" },
+          { name: "PVC MCB Box with Metal Back", path: "/products/mcbmetalenc/pvc" },
+          { name: "SPN Metal Enclosures", path: "/products/mcbmetalenc/spn" },
+          { name: "TPN Metal Enclosures", path: "/" },
         ],
       },
       {
@@ -125,12 +125,12 @@ const menuData: Menu[] = [
           },
         ],
       },
-      {
-        id: 73,
-        title: "Round Fan Box GI",
-        path: "/products/fanbox",
-        newTab: false,
-      },
+      // {
+      //   id: 73,
+      //   title: "Round Fan Box GI",
+      //   path: "/products/fanbox",
+      //   newTab: false,
+      // },
       {
         id: 74,
         title: "Round Plates",

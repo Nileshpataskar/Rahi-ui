@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { TeamMember as TeamMemberType } from "@/TeamSection/teamData";
 import { convertImageHelper } from "@/app/convertImageHelper";
+import ImageLoader from "@/app/ImageLoader";
 
 interface TeamMemberProps {
   member: TeamMemberType;
@@ -19,12 +20,12 @@ const TeamMember = ({ member, delay = 0 }: TeamMemberProps) => {
       className="group"
     >
       <div className="relative mb-10 overflow-hidden shadow-xl">
-        <Image
+        <ImageLoader
           width={800}
           height={450}
           src={convertImageHelper(member.image)}
           alt={member.name}
-          className="aspect-[3/4] w-full object-cover grayscale filter transition-all duration-1000 group-hover:grayscale-0"
+          className="aspect-[3/4] w-full object-cover  filter transition-all duration-1000 group-hover:grayscale-0"
         />
         <div className="absolute inset-0 bg-black/0 transition-colors duration-1000 group-hover:bg-black/10"></div>
         <div className="absolute bottom-0 left-0 right-0 h-1 origin-left scale-x-0 transform bg-[#c0a062] transition-transform duration-1000 group-hover:scale-x-100"></div>

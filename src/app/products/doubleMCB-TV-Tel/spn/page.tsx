@@ -103,7 +103,7 @@ const SPNDoubleDoorTVTelBox: React.FC = () => {
   return (
     <ModernProductLayout
       products={spnProducts}
-      heroTitle="MCB Box With TV-TEL"
+      heroTitle="SPN MCB Box With TV-TEL"
       heroDescription="Professional-grade MCB distribution boxes with integrated TV and Telephone compartments"
       carouselImages={carouselImages}
       features={features}

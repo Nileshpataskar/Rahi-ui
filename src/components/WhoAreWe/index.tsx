@@ -23,7 +23,7 @@ const WhoAreWe = () => {
                 className="h-full w-full object-cover transition-transform duration-1000 hover:scale-105"
               />
               <div className="absolute left-0 top-0 bg-[#c0a062] px-8 py-4 text-sm font-extralight tracking-[0.3em] text-white">
-                1980
+                2000
               </div>
             </div>
           </motion.div>
