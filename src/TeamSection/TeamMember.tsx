@@ -30,7 +30,7 @@ const TeamMember = ({ member, delay = 0 }: TeamMemberProps) => {
         <div className="absolute inset-0 bg-black/0 transition-colors duration-1000 group-hover:bg-black/10"></div>
         <div className="absolute bottom-0 left-0 right-0 h-1 origin-left scale-x-0 transform bg-[#c0a062] transition-transform duration-1000 group-hover:scale-x-100"></div>
       </div>
-      <h3 className="mb-3 font-['Playfair_Display',serif] text-3xl font-extralight text-gray-900">
+      <h3 className="mb-3 text-3xl font-extralight text-gray-900">
         {member.name}
       </h3>
       <p className="mb-8 text-xs font-medium uppercase tracking-[0.4em] text-[#c0a062]">

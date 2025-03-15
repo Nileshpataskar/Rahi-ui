@@ -22,8 +22,14 @@ export default function RootLayout({
   }, []);
 
   return (
-    <html suppressHydrationWarning={true} className="!scroll-smooth overflow-x-hidden" lang="en">
-      <head />
+    <html
+      suppressHydrationWarning={true}
+      className="overflow-x-hidden !scroll-smooth"
+      lang="en"
+    >
+      <head>
+        <title>Rahi Industries</title>
+      </head>
 
       <body className="overflow-x-hidden">
         <ThemeProvider

@@ -53,7 +53,7 @@ const About: React.FC = () => {
             <span className="mb-8 block text-xs font-medium uppercase tracking-[0.4em] text-[#c0a062]">
               Our Journey
             </span>
-            <h2 className="mb-10 font-['Playfair_Display',serif] text-5xl font-extralight tracking-tight text-gray-900">
+            <h2 className="mb-10  text-5xl font-extralight tracking-tight text-gray-900">
               A Legacy of Excellence
             </h2>
             <div className="mx-auto mb-12 h-px w-32 bg-[#c0a062]"></div>
@@ -79,7 +79,7 @@ const About: React.FC = () => {
             <span className="mb-8 block text-xs font-medium uppercase tracking-[0.4em] text-[#c0a062]">
               Our Principles
             </span>
-            <h2 className="mb-10 font-['Playfair_Display',serif] text-5xl font-extralight tracking-tight text-gray-900">
+            <h2 className="mb-10  text-5xl font-extralight tracking-tight text-gray-900">
               Core Values
             </h2>
             <div className="mx-auto mb-12 h-px w-32 bg-[#c0a062]"></div>
@@ -113,7 +113,7 @@ const About: React.FC = () => {
                   <path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z" />
                 </svg>
               </div>
-              <h3 className="mb-8 font-['Playfair_Display',serif] text-3xl font-extralight text-gray-900">
+              <h3 className="mb-8  text-3xl font-extralight text-gray-900">
                 Excellence
               </h3>
               <div className="mb-10 h-px w-16 bg-[#c0a062] transition-all duration-700 group-hover:w-24"></div>
@@ -147,7 +147,7 @@ const About: React.FC = () => {
                   <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10" />
                 </svg>
               </div>
-              <h3 className="mb-8 font-['Playfair_Display',serif] text-3xl font-extralight text-gray-900">
+              <h3 className="mb-8  text-3xl font-extralight text-gray-900">
                 Integrity
               </h3>
               <div className="mb-10 h-px w-16 bg-[#c0a062] transition-all duration-700 group-hover:w-24"></div>
@@ -182,7 +182,7 @@ const About: React.FC = () => {
                   <circle cx="12" cy="12" r="3" />
                 </svg>
               </div>
-              <h3 className="mb-8 font-['Playfair_Display',serif] text-3xl font-extralight text-gray-900">
+              <h3 className="mb-8  text-3xl font-extralight text-gray-900">
                 Innovation
               </h3>
               <div className="mb-10 h-px w-16 bg-[#c0a062] transition-all duration-700 group-hover:w-24"></div>

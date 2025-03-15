@@ -32,7 +32,7 @@ const OurMission = () => {
           transition={{ duration: 0.9, ease: "easeOut", delay: 0.2 }}
           className="space-y-10 md:order-1"
         >
-          <h3 className="font-['Playfair_Display',serif] text-4xl font-extralight text-gray-900">
+          <h3 className="text-4xl font-extralight text-gray-900">
             Our Mission
           </h3>
           <div className="h-px w-20 bg-[#c0a062]"></div>
