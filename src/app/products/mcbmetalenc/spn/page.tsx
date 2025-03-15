@@ -51,7 +51,7 @@ const SPNMetalMCBEnclosures: React.FC = () => {
       code: "SPN2PL",
       title: "2 Pole Long MCB Metal Enclosure",
       description: "Premium 2 pole long metal enclosure designed for MCBs.",
-      image: "https://drive.google.com/file/d/1sG0MOU6B07XmuW9eIuPR24jJxb5f1nvK/view?usp=drive_link ",
+      image: "https://drive.google.com/file/d/1vewTkOI2liRhrjZIux62X9TDsBbTUGzK/view?usp=drive_link",
       specifications: {
         Model: "2 Pole Long",
         Type: "Metal Enclosure",
@@ -65,7 +65,7 @@ const SPNMetalMCBEnclosures: React.FC = () => {
       code: "SPN4PL",
       title: "4 Pole Long MCB Metal Enclosure",
       description: "Premium 4 pole long metal enclosure designed for MCBs.",
-      image: "https://drive.google.com/file/d/1sG0MOU6B07XmuW9eIuPR24jJxb5f1nvK/view?usp=drive_link",
+      image: "https://drive.google.com/file/d/1e1c4c1QWz1mbOD6z4oW9YuCicwMJ1DaV/view?usp=drive_link",
       specifications: {
         Model: "4 Pole Long",
         Type: "Metal Enclosure",
@@ -79,7 +79,7 @@ const SPNMetalMCBEnclosures: React.FC = () => {
       code: "SPN6P",
       title: "6 Pole MCB Metal Enclosure",
       description: "Premium 6 pole metal enclosure designed for MCBs.",
-      image: "https://drive.google.com/file/d/1bfHDN8mbwwzrKHs1wBN2omM3WRkQK0zz/view?usp=drive_link",
+      image: "https://drive.google.com/file/d/1yEQ0iy7RrqBKVUXH8-8k9lGJfFfuqPo2/view?usp=drive_link",
       specifications: {
         Model: "6 Pole",
         Type: "Metal Enclosure",
@@ -93,7 +93,7 @@ const SPNMetalMCBEnclosures: React.FC = () => {
       code: "SPN6W",
       title: "6 Way MCB Metal Enclosure",
       description: "Premium 6 way metal enclosure designed for MCBs.",
-      image: "https://drive.google.com/file/d/1sG0MOU6B07XmuW9eIuPR24jJxb5f1nvK/view?usp=drive_link",
+      image: "https://drive.google.com/file/d/1BYsgSM2krYz_UQJEuCk0BEF-MRk-HePG/view?usp=drive_link",
       specifications: {
         Model: "6 Way",
         Type: "Metal Enclosure",
@@ -107,7 +107,7 @@ const SPNMetalMCBEnclosures: React.FC = () => {
       code: "SPN8W",
       title: "8 Way MCB Metal Enclosure",
       description: "Premium 8 way metal enclosure designed for MCBs.",
-      image: "https://drive.google.com/file/d/1bfHDN8mbwwzrKHs1wBN2omM3WRkQK0zz/view?usp=drive_link",
+      image: "https://drive.google.com/file/d/18noxCDTq0PVaUqiSJDWqfYIoRfkhh5_V/view?usp=drive_link",
       specifications: {
         Model: "8 Way",
         Type: "Metal Enclosure",
@@ -121,7 +121,7 @@ const SPNMetalMCBEnclosures: React.FC = () => {
       code: "SPN10W",
       title: "10 Way MCB Metal Enclosure",
       description: "Premium 10 way metal enclosure designed for MCBs.",
-      image: "https://drive.google.com/file/d/1sG0MOU6B07XmuW9eIuPR24jJxb5f1nvK/view?usp=drive_link",
+      image: "https://drive.google.com/file/d/18noxCDTq0PVaUqiSJDWqfYIoRfkhh5_V/view?usp=drive_link",
       specifications: {
         Model: "10 Way",
         Type: "Metal Enclosure",
@@ -135,7 +135,7 @@ const SPNMetalMCBEnclosures: React.FC = () => {
       code: "SPN12W",
       title: "12 Way MCB Metal Enclosure",
       description: "Premium 12 way metal enclosure designed for MCBs.",
-      image: "https://drive.google.com/file/d/1bfHDN8mbwwzrKHs1wBN2omM3WRkQK0zz/view?usp=drive_link",
+      image: "https://drive.google.com/file/d/15gkKQn2BkpX0YcBDR-4_L9xZDM2q_a-y/view?usp=drive_link",
       specifications: {
         Model: "12 Way",
         Type: "Metal Enclosure",

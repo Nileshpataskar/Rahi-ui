@@ -79,7 +79,7 @@ const menuData: Menu[] = [
           { name: "ABS Double Door MCB Box", path: "/products/mcbmetalenc/abs" },
           { name: "PVC MCB Box with Metal Back", path: "/products/mcbmetalenc/pvc" },
           { name: "SPN Metal Enclosures", path: "/products/mcbmetalenc/spn" },
-          { name: "TPN Metal Enclosures", path: "/" },
+          { name: "TPN Metal Enclosures", path: "/products/mcbmetalenc/tpn" },
         ],
       },
       {
