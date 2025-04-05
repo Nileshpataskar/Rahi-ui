@@ -193,27 +193,34 @@ const ModernProductLayout: React.FC<ModernProductLayoutProps> = ({
               transition={{ duration: 0.7 }}
               className="relative order-2 lg:order-1 lg:col-span-7"
             >
-              <div className="relative aspect-[4/3] overflow-hidden">
-                <ImageLoader
-                  src={convertImageHelper(allImages[currentImageIndex])}
+              <div className="relative aspect-[4/3] overflow-hidden  rounded-2xl">
+                <Image
+                  src={allImages[currentImageIndex]}
                   alt={activeProduct.title}
                   width={800}
                   height={600}
                   className="h-full w-full object-cover shadow-xl"
                 />
+                {/* <ImageLoader
+                  src={convertImageHelper(allImages[currentImageIndex])}
+                  alt={activeProduct.title}
+                  width={800}
+                  height={600}
+                  className="h-full w-full object-cover shadow-xl"
+                /> */}
 
                 {allImages.length > 1 && (
                   <>
                     <button
                       onClick={prevImage}
-                      className="absolute left-4 top-1/2 -translate-y-1/2 transform bg-black/20 p-3 text-white transition-all duration-300 hover:scale-105 hover:bg-black/40"
+                      className="absolute left-4 top-1/2 -translate-y-1/2 transform bg-black/70 p-3 text-white transition-all duration-300 hover:scale-105 hover:bg-black/40"
                       aria-label="Previous image"
                     >
                       <ChevronLeft className="h-5 w-5" />
                     </button>
                     <button
                       onClick={nextImage}
-                      className="absolute right-4 top-1/2 -translate-y-1/2 transform bg-black/20 p-3 text-white transition-all duration-300 hover:scale-105 hover:bg-black/40"
+                      className="absolute right-4 top-1/2 -translate-y-1/2 transform bg-black/70 p-3 text-white transition-all duration-300 hover:scale-105 hover:bg-black/40"
                       aria-label="Next image"
                     >
                       <ChevronRight className="h-5 w-5" />
@@ -243,6 +250,13 @@ const ModernProductLayout: React.FC<ModernProductLayoutProps> = ({
                       onClick={() => setCurrentImageIndex(index)}
                       className={`h-20 w-20 flex-shrink-0 overflow-hidden transition-all duration-300 ${index === currentImageIndex ? "scale-105 ring-1 ring-black" : "opacity-60 hover:opacity-100"}`}
                     >
+                      <Image
+                        width={800}
+                        height={600}
+                        src={img}
+                        alt={`Thumbnail ${index + 1}`}
+                        className="h-full w-full object-cover"
+                      />
                       <ImageLoader
                         width={800}
                         height={600}
@@ -341,31 +355,6 @@ const ModernProductLayout: React.FC<ModernProductLayoutProps> = ({
                     )}
                   </div>
                 )}
-
-              {/* <div className="pt-8">
-                <div className="mb-6 flex items-center justify-between">
-                  <div className="h-px flex-grow bg-gray-200"></div>
-                  <span className="px-4 text-xs uppercase tracking-widest text-gray-500">
-                    Actions
-                  </span>
-                  <div className="h-px flex-grow bg-gray-200"></div>
-                </div>
-                <div className="flex flex-col gap-4">
-                  <Button
-                    size="lg"
-                    className="w-full rounded-none bg-black px-8 py-6 text-xs font-light uppercase tracking-widest text-white hover:bg-black/90"
-                  >
-                    Request Quote
-                  </Button>
-                  <Button
-                    variant="outline"
-                    size="lg"
-                    className="w-full rounded-none border-black px-8 py-6 text-xs font-light uppercase tracking-widest text-black transition-colors duration-300 hover:bg-black hover:text-white"
-                  >
-                    Download Specifications
-                  </Button>
-                </div>
-              </div> */}
             </motion.div>
           </div>
         </div>
@@ -427,16 +416,6 @@ const ModernProductLayout: React.FC<ModernProductLayoutProps> = ({
                 </div>
               </div>
 
-              {/* <div className="mt-12 text-center">
-                <Link href='/download#downloadsection'>
-                  <Button
-                    variant="outline"
-                    className="rounded-none border-white px-8 py-3 text-xs font-light uppercase tracking-widest  text-gray-700 transition-colors duration-300 hover:bg-white hover:text-gray-950 "
-                  >
-                    <Download className="mr-2 h-4 w-4" /> Download Datasheet
-                  </Button>
-                </Link>
-              </div> */}
             </div>
           </section>
         )}
@@ -524,13 +503,20 @@ const ModernProductLayout: React.FC<ModernProductLayoutProps> = ({
                     >
                       <div className="relative aspect-[4/3] overflow-hidden">
                         <div className="absolute inset-0 z-10 bg-black/0 transition-colors duration-500 group-hover:bg-black/10"></div>
-                        <ImageLoader
+                        <Image
+                          width={800}
+                          height={450}
+                          src={product.image}
+                          alt={product.title}
+                          className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
+                        />
+                        {/* <ImageLoader  
                           width={800}
                           height={450}
                           src={convertImageHelper(product.image)}
                           alt={product.title}
                           className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
-                        />
+                        /> */}
                         <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-black/60 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
                       </div>
                       <CardContent className="relative p-8">

@@ -100,7 +100,7 @@ const HorizontalProductScroll: React.FC<HorizontalProductScrollProps> = ({
           {products.map((product, index) => (
             <div
               key={product.id}
-              className="mx-4 w-[340px] flex-shrink-0 snap-start first:ml-[calc(50%-170px)] last:mr-[calc(50%-170px)]"
+              className="mx-4 flex-shrink-0 snap-start w-[300px] md:w-[340px] lg:w-[400px] transition-transform duration-300"
               onMouseEnter={() => setHoveredIndex(index)}
               onMouseLeave={() => setHoveredIndex(null)}
             >

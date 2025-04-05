@@ -6,13 +6,18 @@ import { Product } from "../types";
 
 const MCBBoxPage: React.FC = () => {
   // Sample carousel images
+  // const carouselImages = [
+  //   "https://drive.google.com/file/d/167GAi30TTh9CP0HiWKKaVvzyt00diIgB/view?usp=drive_link",
+  //   "https://drive.google.com/file/d/1hzrSI3reJWCbI4dHiPjavmgn_R7UVgKA/view?usp=drive_link",
+  //   "https://drive.google.com/file/d/1f479cPdl2IzSLAPyWNRzo-riR-jHOVib/view?usp=drive_link",
+  // ];
   const carouselImages = [
-    "https://drive.google.com/file/d/167GAi30TTh9CP0HiWKKaVvzyt00diIgB/view?usp=drive_link",
-    "https://drive.google.com/file/d/1hzrSI3reJWCbI4dHiPjavmgn_R7UVgKA/view?usp=drive_link",
-    "https://drive.google.com/file/d/1f479cPdl2IzSLAPyWNRzo-riR-jHOVib/view?usp=drive_link",
+    "/products/abs/abs (4).png",
+    "/products/abs/abs (5).png",
+    "/products/abs/abs (6).png",
   ];
 
-  // Custom features for MCB Box products
+  // Custom features for MCB Box productsA
   const features = [
     "Flame retardant ABS material for enhanced safety",
     "IP54 protection rating for dust and water resistance",
@@ -26,8 +31,7 @@ const MCBBoxPage: React.FC = () => {
       title: " 2/4 way ABS Door MCB Box",
       description:
         "Durable 4 way single-phase MCB box with ABS door for residential use.",
-      image:
-        "https://drive.google.com/file/d/1sOcjR1VAaw3CC520D8xdWy5toFsTs5y8/view?usp=drive_link",
+      image: "/products/abs/abs (1).png",
       specifications: {
         Material: "ABS Plastic",
         Ways: "4",
@@ -44,8 +48,7 @@ const MCBBoxPage: React.FC = () => {
       title: "6/8 Way ABS Door MCB Box",
       description:
         "Medium-sized 8 way single-phase MCB box for residential and small commercial applications.",
-      image:
-        "https://drive.google.com/file/d/1k4T_mWdf8eDdnKX2uTT6gam6oSVKz_ft/view?usp=drive_link",
+      image: "/products/abs/abs (2).png",
       specifications: {
         Material: "ABS Plastic",
         Ways: "8",
@@ -62,8 +65,7 @@ const MCBBoxPage: React.FC = () => {
       title: "10/12 Way ABS Door MCB Box",
       description:
         "Large capacity 12 way single-phase MCB box for commercial applications.",
-      image:
-        "https://drive.google.com/file/d/10-K6HNYT6UDzbBds27CtlUOFUyCpCoRs/view?usp=drive_link",
+      image: "/products/abs/abs (3).png",
       specifications: {
         Material: "ABS Plastic",
         Ways: "12",
