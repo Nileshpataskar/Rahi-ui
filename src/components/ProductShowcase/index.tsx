@@ -22,7 +22,7 @@ export const showcaseProducts: ShowcaseProduct[] = [
     id: "1",
     title: "ABS Door MCB Box",
     image:
-      "https://drive.google.com/file/d/1sOcjR1VAaw3CC520D8xdWy5toFsTs5y8/view?usp=drive_link",
+      "/products/abs/abs (1).png",
     path: "/products/mcbbox",
     category: "MCB Box",
   },

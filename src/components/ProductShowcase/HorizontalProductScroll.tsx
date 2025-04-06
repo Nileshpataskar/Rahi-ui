@@ -100,14 +100,14 @@ const HorizontalProductScroll: React.FC<HorizontalProductScrollProps> = ({
           {products.map((product, index) => (
             <div
               key={product.id}
-              className="mx-4 flex-shrink-0 snap-start w-[300px] md:w-[340px] lg:w-[400px] transition-transform duration-300"
+              className="mx-4 w-[300px] flex-shrink-0 snap-start transition-transform duration-300 md:w-[340px] lg:w-[400px]"
               onMouseEnter={() => setHoveredIndex(index)}
               onMouseLeave={() => setHoveredIndex(null)}
             >
               <a href={product.path} className="group block">
-                <div className="relative mb-4 aspect-square overflow-hidden bg-black">
+                <div className="relative mb-4 aspect-square overflow-hidden ">
                   {/* Product image with grayscale effect that turns to color on hover */}
-                  <ImageLoader
+                  <Image
                     src={convertImageHelper(product.image)}
                     alt={product.title}
                     width={800}

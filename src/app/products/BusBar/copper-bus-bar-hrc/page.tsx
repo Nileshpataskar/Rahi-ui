@@ -6,9 +6,9 @@ import ModernProductLayout from "../../ModernProductLayout";
 const CopperBusBarHRC: React.FC = () => {
   // Sample carousel images (replace with actual copper bus bar images)
   const carouselImages = [
-    "https://drive.google.com/file/d/17KcWJsB71Ri-ksV6lyPMGKz3OEOhx8v1/view?usp=drive_link",
-    "https://drive.google.com/file/d/1JFkP6PAWVARJdicifymrrcMSiUw_lWJR/view?usp=drive_link",
-    "https://drive.google.com/file/d/1HzW8r-j8fV0LH7PfooQkpZmkTLliemvy/view?usp=drive_link",
+    "/products/busbar/hrc/bushrc (7).png",
+    "/products/busbar/hrc/bushrc (8).png",
+    "/products/busbar/hrc/bushrc (6).png",
   ];
 
   // Updated features for Copper Bus Bar products
@@ -26,8 +26,7 @@ const CopperBusBarHRC: React.FC = () => {
       title: "63Amp/415V HRC Bus Bar",
       description:
         "High-performance 63Amp copper bus bar system for efficient power distribution.",
-      image:
-        "https://drive.google.com/file/d/1mgxjZOIgQw9RBCd7belT2yEuKn7enE6D/view?usp=drive_link",
+      image: "/products/busbar/hrc/bushrc (1).png",
       specifications: {
         Material: "High-grade Copper",
         Voltage: "415V",
@@ -43,7 +42,7 @@ const CopperBusBarHRC: React.FC = () => {
       description:
         "Heavy-duty 100Amp copper bus bar for demanding power distribution needs.",
       image:
-        "https://drive.google.com/file/d/1vtim8JOziQjakVEJxciyJ-VthQsH3tvS/view?usp=drive_link",
+        "/products/busbar/hrc/bushrc (4).png",
       specifications: {
         Material: "High-grade Copper",
         Voltage: "415V",
@@ -59,7 +58,7 @@ const CopperBusBarHRC: React.FC = () => {
       description:
         "Professional-grade 200Amp copper bus bar system for high-capacity power distribution.",
       image:
-        "https://drive.google.com/file/d/1KxLuKwefCM9QKyzD6mdgYVtolxZSuQiu/view?usp=drive_link",
+        "/products/busbar/hrc/bushrc (7).png",
       specifications: {
         Material: "High-grade Copper",
         Voltage: "415V",

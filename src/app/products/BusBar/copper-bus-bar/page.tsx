@@ -6,9 +6,9 @@ import ModernProductLayout from "../../ModernProductLayout";
 const CopperBusBar: React.FC = () => {
   // Sample carousel images (replace with actual copper bus bar images)
   const carouselImages = [
-    "https://drive.google.com/file/d/17KcWJsB71Ri-ksV6lyPMGKz3OEOhx8v1/view?usp=drive_link",
-    "https://drive.google.com/file/d/1JFkP6PAWVARJdicifymrrcMSiUw_lWJR/view?usp=drive_link",
-    "https://drive.google.com/file/d/1HzW8r-j8fV0LH7PfooQkpZmkTLliemvy/view?usp=drive_link",
+    "/products/busbar/copper/copper (8).png",
+    "/products/busbar/copper/copper (9).png",
+    "/products/busbar/copper/copper (10).png",
   ];
 
   // Updated features for Copper Bus Bar products
@@ -26,8 +26,7 @@ const CopperBusBar: React.FC = () => {
       title: "32 Amp 415v BUS Bar",
       description:
         "32 Amp copper bus bar system designed for efficient power distribution.",
-      image:
-        "https://drive.google.com/file/d/1mgxjZOIgQw9RBCd7belT2yEuKn7enE6D/view?usp=drive_link",
+      image: "/products/busbar/copper/copper (1).png",
       specifications: {
         Material: "Copper",
         "Current Rating": "32 Amp",
@@ -43,8 +42,7 @@ const CopperBusBar: React.FC = () => {
       title: "63 Amp 415v Bus Bar",
       description:
         "63 Amp copper bus bar for medium-duty power distribution applications.",
-      image:
-        "https://drive.google.com/file/d/1vtim8JOziQjakVEJxciyJ-VthQsH3tvS/view?usp=drive_link",
+      image: "/products/busbar/copper/copper (2).png",
       specifications: {
         Material: "Copper",
         "Current Rating": "63 Amp",
@@ -60,8 +58,7 @@ const CopperBusBar: React.FC = () => {
       title: "100 Amp 415v Bus Bar",
       description:
         "100 Amp copper bus bar for heavy-duty power distribution needs.",
-      image:
-        "https://drive.google.com/file/d/1KxLuKwefCM9QKyzD6mdgYVtolxZSuQiu/view?usp=drive_link",
+      image: "/products/busbar/copper/copper (3).png",
       specifications: {
         Material: "Copper",
         "Current Rating": "100 Amp",
@@ -77,8 +74,7 @@ const CopperBusBar: React.FC = () => {
       title: "200 Amp 415v Bus Bar",
       description:
         "200 Amp copper bus bar system for high-capacity industrial applications.",
-      image:
-        "https://drive.google.com/file/d/1KxLuKwefCM9QKyzD6mdgYVtolxZSuQiu/view?usp=drive_link",
+      image: "/products/busbar/copper/copper (4).png",
       specifications: {
         Material: "Copper",
         "Current Rating": "200 Amp",

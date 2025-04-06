@@ -6,8 +6,8 @@ import { Product } from "../types";
 const RoundPlates: React.FC = () => {
   // Sample carousel images (replace with actual round plate images)
   const carouselImages = [
-    "https://drive.google.com/file/d/1597zMgbzh10aQNWASf4ttsOe3psv41UF/view?usp=drive_link",
-    "https://drive.google.com/file/d/1jsgxhLYRvbAw-KrgZT9aOOFeA-zO5DEj/view?usp=drive_link",
+    "/products/plate/plate (4).png",
+    "/products/plate/plate (5).png",
   ];
 
   // Updated features for Round Plates products
@@ -25,8 +25,8 @@ const RoundPlates: React.FC = () => {
       title: "4.25 inch Round Plate",
       description:
         "4.25 inch round plate perfect for standard electrical installations.",
-      image:
-        "https://drive.google.com/file/d/1yEfcZFWV3mU_yBv9RHre7WhqmtKWNDMJ/view?usp=drive_link",
+      image: "/products/plate/plate (1).png",
+
       specifications: {
         Size: "4.25 inch",
         Type: "Round Plate",
@@ -42,8 +42,8 @@ const RoundPlates: React.FC = () => {
       title: "5 inch Round Plate",
       description:
         "5 inch round plate suitable for various electrical applications.",
-      image:
-        "https://drive.google.com/file/d/1ozP10Z-IfcUSENVt9jCvzk-c8s8MzKxu/view?usp=drive_link",
+      image: "/products/plate/plate (3).png",
+
       specifications: {
         Size: "5 inch",
         Type: "Round Plate",
@@ -59,8 +59,7 @@ const RoundPlates: React.FC = () => {
       title: "6 inch Fan Plate",
       description:
         "6 inch fan plate specifically designed for ceiling fan installations.",
-      image:
-        "https://drive.google.com/file/d/1597zMgbzh10aQNWASf4ttsOe3psv41UF/view?usp=drive_link",
+      image: "/products/plate/plate (5).png",
       specifications: {
         Size: "6 inch",
         Type: "Fan Plate",
