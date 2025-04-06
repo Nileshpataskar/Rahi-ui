@@ -5,8 +5,9 @@ import ModernProductLayout from "../../ModernProductLayout";
 
 const SPNDoubleDoorBox: React.FC = () => {
   const carouselImages = [
-    "https://drive.google.com/file/d/1Wan3hhXG_TTrGKddz6GkYka6JQycjQqn/view?usp=drive_link",
-    "https://drive.google.com/file/d/121DzaqcwgGyBKjd2x2s9h39hckd_Q4nF/view?usp=drive_link",
+    "/products/doublemcb/stdspn/spn (5).webp",
+    "/products/doublemcb/stdspn/spn (6).webp",
+    "/products/doublemcb/stdspn/spn (7).webp",
   ];
 
   const features = [
@@ -24,8 +25,8 @@ const SPNDoubleDoorBox: React.FC = () => {
       title: "6 way SPN DD",
       description:
         "6 way Single Phase Neutral Double Door MCB distribution box from Standard series.",
-      image:
-        "https://drive.google.com/file/d/1Q6o9jliOOfeslkoWJdxHiDO_EaS3ITzg/view?usp=drive_link",
+      image: "/products/doublemcb/stdspn/spn (1).webp",
+
       specifications: {
         Type: "SPN Double Door",
         Ways: "6",
@@ -41,8 +42,8 @@ const SPNDoubleDoorBox: React.FC = () => {
       title: "8 way SPN DD",
       description:
         "8 way Single Phase Neutral Double Door MCB distribution box from Standard series.",
-      image:
-        "https://drive.google.com/file/d/19GBRGd5InvrDTfuN7q7fY_hxXuG9gJ44/view?usp=drive_link",
+      image: "/products/doublemcb/stdspn/spn (2).webp",
+
       specifications: {
         Type: "SPN Double Door",
         Ways: "8",
@@ -58,8 +59,8 @@ const SPNDoubleDoorBox: React.FC = () => {
       title: "10 way SPN DD",
       description:
         "10 way Single Phase Neutral Double Door MCB distribution box from Standard series.",
-      image:
-        "https://drive.google.com/file/d/17sM0fPJywp1aloTjomV1ESG5pOq3WOcS/view?usp=drive_link",
+      image: "/products/doublemcb/stdspn/spn (3).webp",
+
       specifications: {
         Type: "SPN Double Door",
         Ways: "10",
@@ -75,8 +76,8 @@ const SPNDoubleDoorBox: React.FC = () => {
       title: "12 way SPN DD",
       description:
         "12 way Single Phase Neutral Double Door MCB distribution box from Standard series.",
-      image:
-        "https://drive.google.com/file/d/121DzaqcwgGyBKjd2x2s9h39hckd_Q4nF/view?usp=drive_link",
+      image: "/products/doublemcb/stdspn/spn (4).webp",
+
       specifications: {
         Type: "SPN Double Door",
         Ways: "12",
@@ -92,8 +93,8 @@ const SPNDoubleDoorBox: React.FC = () => {
       title: "16 way SPN DD",
       description:
         "16 way Single Phase Neutral Double Door MCB distribution box from Standard series.",
-      image:
-        "https://drive.google.com/file/d/184xjlrbcK9VVz7URxA9ydRUvgiIKo1SM/view?usp=drive_link",
+      image: "/products/doublemcb/stdspn/spn (5).webp",
+
       specifications: {
         Type: "SPN Double Door",
         Ways: "16",

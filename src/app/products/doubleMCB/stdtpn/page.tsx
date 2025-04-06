@@ -5,8 +5,9 @@ import ModernProductLayout from "../../ModernProductLayout";
 
 const TPNDoubleDoorBox: React.FC = () => {
   const carouselImages = [
-    "https://drive.google.com/file/d/1Wan3hhXG_TTrGKddz6GkYka6JQycjQqn/view?usp=drive_link",
-    "https://drive.google.com/file/d/184xjlrbcK9VVz7URxA9ydRUvgiIKo1SM/view?usp=drive_link",
+    "/products/doublemcb/stdtpn/tpn (5).webp",
+    "/products/doublemcb/stdtpn/tpn (6).webp",
+    "/products/doublemcb/stdtpn/tpn (7).webp",
   ];
 
   const features = [
@@ -24,8 +25,7 @@ const TPNDoubleDoorBox: React.FC = () => {
       title: "4 way TPN DD",
       description:
         "4 way Three Phase Neutral Double Door MCB distribution box from Standard series.",
-      image:
-        "https://drive.google.com/file/d/1zOv9I-NNpSxeJJml9ae9K80XY9nH3qHZ/view?usp=drive_link",
+      image: "/products/doublemcb/stdtpn/tpn (1).webp",
       specifications: {
         Type: "TPN Double Door",
         Ways: "4",
@@ -41,8 +41,8 @@ const TPNDoubleDoorBox: React.FC = () => {
       title: "6 way TPN DD",
       description:
         "6 way Three Phase Neutral Double Door MCB distribution box from Standard series.",
-      image:
-        "https://drive.google.com/file/d/121DzaqcwgGyBKjd2x2s9h39hckd_Q4nF/view?usp=drive_link",
+      image: "/products/doublemcb/stdtpn/tpn (3).webp",
+
       specifications: {
         Type: "TPN Double Door",
         Ways: "6",
@@ -58,8 +58,8 @@ const TPNDoubleDoorBox: React.FC = () => {
       title: "8 way TPN DD",
       description:
         "8 way Three Phase Neutral Double Door MCB distribution box from Standard series.",
-      image:
-        "https://drive.google.com/file/d/184xjlrbcK9VVz7URxA9ydRUvgiIKo1SM/view?usp=drive_link",
+      image: "/products/doublemcb/stdtpn/tpn (4).webp",
+
       specifications: {
         Type: "TPN Double Door",
         Ways: "8",
@@ -75,8 +75,7 @@ const TPNDoubleDoorBox: React.FC = () => {
       title: "12 way TPN DD",
       description:
         "12 way Three Phase Neutral Double Door MCB distribution box from Standard series.",
-      image:
-        "https://drive.google.com/file/d/1KgOeVGa2QdC3nYGPv66xtqZwnhmDsmKa/view?usp=drive_link",
+      image: "/products/doublemcb/stdtpn/tpn (5).webp",
       specifications: {
         Type: "TPN Double Door",
         Ways: "12",
