@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { Textarea } from "@/components/ui/textarea";
 import { MapPin, Phone, Mail, Clock, ArrowRight } from "lucide-react";
@@ -8,8 +8,40 @@ import { Button } from "@/components/ui/button";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Input } from "@/components/ui/input";
 import Link from "next/link";
+import emailjs from "@emailjs/browser";
+import type { EmailJSResponseStatus } from "@emailjs/browser";
+
+const SERVICE_ID = "service_aols2vi";
+const TEMPLATE_ID = "template_zz288dm";
+const PUBLIC_KEY = "l6us1Y0pvG1gMFd7O";
 
 const Contact = () => {
+  const formRef = useRef<HTMLFormElement | null>(null);
+  const [loading, setLoading] = useState(false);
+  const [success, setSuccess] = useState("");
+  const [error, setError] = useState("");
+
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setLoading(true);
+    setSuccess("");
+    setError("");
+    if (!formRef.current) return;
+    emailjs
+      .sendForm(SERVICE_ID, TEMPLATE_ID, formRef.current, PUBLIC_KEY)
+      .then(
+        (result: EmailJSResponseStatus) => {
+          setSuccess("Message sent successfully!");
+          setLoading(false);
+          formRef.current?.reset();
+        },
+        (error: any) => {
+          setError("Failed to send message. Please try again.");
+          setLoading(false);
+        }
+      );
+  };
+
   return (
     <div className="min-h-screen bg-white">
       <section className="relative overflow-hidden bg-[#f8f8f8] pb-32 pt-40 text-gray-900">
@@ -66,7 +98,7 @@ const Contact = () => {
                 </p>
               </div>
 
-              <form className="space-y-8">
+              <form className="space-y-8" ref={formRef} onSubmit={sendEmail}>
                 <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
                   <div className="space-y-2">
                     <label
@@ -77,8 +109,10 @@ const Contact = () => {
                     </label>
                     <Input
                       id="name"
-                      placeholder="Your name"
+                      name="name"
+                      placeholder="Raj Patil"
                       className="h-12 rounded-none border-gray-200 focus:border-[#fff] focus:ring-[#fff]"
+                      required
                     />
                   </div>
                   <div className="space-y-2">
@@ -90,24 +124,29 @@ const Contact = () => {
                     </label>
                     <Input
                       id="email"
+                      name="email"
                       type="email"
-                      placeholder="Your email address"
+                      placeholder="example@yourmail.com"
                       className="h-12 rounded-none border-gray-200 focus:border-[#fff] focus:ring-[#fff]"
+                      required
                     />
                   </div>
                 </div>
 
                 <div className="space-y-2">
                   <label
-                    htmlFor="subject"
+                    htmlFor="phone"
                     className="block text-sm font-light text-gray-900"
                   >
-                    Subject
+                    phone
                   </label>
                   <Input
-                    id="subject"
-                    placeholder="Subject of your message"
+                    id="phone"
+                    name="phone"
+                    placeholder="+91 9999 999 999"
+                    type="tel"
                     className="h-12 rounded-none border-gray-200 focus:border-[#fff] focus:ring-[#fff]"
+                    required
                   />
                 </div>
 
@@ -120,18 +159,24 @@ const Contact = () => {
                   </label>
                   <Textarea
                     id="message"
-                    placeholder="Your message"
+                    name="message"
+                    placeholder="type your message here"
                     rows={6}
                     className="resize-none rounded-none border-gray-200 focus:border-[#fff] focus:ring-[#fff]"
+                    required
                   />
                 </div>
+
+                {success && <p className="text-green-600">{success}</p>}
+                {error && <p className="text-red-600">{error}</p>}
 
                 <div className="pt-4">
                   <Button
                     type="submit"
                     className="rounded-none bg-[#0f0f0f] px-12 py-6 text-xs font-light uppercase tracking-[0.3em] text-white transition-all duration-500  hover:text-[#f2f2f2]"
+                    disabled={loading}
                   >
-                    Send Message
+                    {loading ? "Sending..." : "Send Message"}
                   </Button>
                 </div>
               </form>

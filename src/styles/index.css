@@ -17,20 +17,20 @@ body {
 }
 
 .sticky-menu #navbarToggler span {
-  @apply bg-dark dark:bg-white;
+  @apply bg-dark;
 }
 
 .sticky-menu #navbarCollapse li > a {
-  @apply text-dark hover:text-primary hover:opacity-100 dark:text-white;
+  @apply text-dark hover:text-primary hover:opacity-100;
 }
 #navbarCollapse li .ud-menu-scroll.active {
   @apply opacity-70;
 }
 .sticky-menu #navbarCollapse li .ud-menu-scroll.active {
-  @apply text-primary opacity-100 dark:text-white;
+  @apply text-primary opacity-100;
 }
 .sticky-menu .loginBtn {
-  @apply text-dark hover:text-primary hover:opacity-100 dark:text-white;
+  @apply text-dark hover:text-primary hover:opacity-100;
 }
 
 .sticky-menu .signUpBtn {
@@ -49,7 +49,7 @@ body {
 
 .blog-details,
 .blog-details p {
-  @apply text-base leading-relaxed text-body-color dark:text-dark-6;
+  @apply text-base leading-relaxed text-body-color;
 }
 
 .blog-details p {
@@ -57,7 +57,7 @@ body {
 }
 
 .blog-details strong {
-  @apply font-bold text-dark dark:text-white;
+  @apply font-bold text-dark;
 }
 
 .blog-details ul {
@@ -69,15 +69,15 @@ body {
 }
 
 .blog-details h1 {
-  @apply mb-8 text-3xl font-bold text-dark dark:text-white sm:text-4xl md:text-[40px] md:leading-[1.28];
+  @apply mb-8 text-3xl font-bold text-dark sm:text-4xl md:text-[40px] md:leading-[1.28];
 }
 
 .blog-details h2 {
-  @apply mb-8 text-2xl font-bold text-dark dark:text-white sm:text-3xl md:text-[35px] md:leading-[1.28];
+  @apply mb-8 text-2xl font-bold text-dark sm:text-3xl md:text-[35px] md:leading-[1.28];
 }
 
 .blog-details h3 {
-  @apply mb-6 text-2xl font-bold text-dark dark:text-white sm:text-[28px] sm:leading-[40px];
+  @apply mb-6 text-2xl font-bold text-dark sm:text-[28px] sm:leading-[40px];
 }
 
 @layer base {
@@ -132,55 +132,7 @@ body {
     --chart-5: 27 87% 67%;
 
     --radius: 0.5rem}
-  .dark {
-
-    --background: 0 0% 3.9%;
-
-    --foreground: 0 0% 98%;
-
-    --card: 0 0% 3.9%;
-
-    --card-foreground: 0 0% 98%;
-
-    --popover: 0 0% 3.9%;
-
-    --popover-foreground: 0 0% 98%;
-
-    --primary: 300 22% 92%;
-
-    --primary-foreground: 0 0% 9%;
-
-    --secondary: 0 0% 100%;
-
-    --secondary-foreground: 0 0% 98%;
-
-    --muted: 0 0% 14.9%;
-
-    --muted-foreground: 0 0% 63.9%;
-
-    --accent: 0 0% 14.9%;
-
-    --accent-foreground: 0 0% 98%;
-
-    --destructive: 0 62.8% 30.6%;
-
-    --destructive-foreground: 0 0% 98%;
-
-    --border: 0 0% 14.9%;
-
-    --input: 0 0% 14.9%;
-
-    --ring: 0 0% 83.1%;
-
-    --chart-1: 220 70% 50%;
-
-    --chart-2: 160 60% 45%;
-
-    --chart-3: 30 80% 55%;
-
-    --chart-4: 280 65% 60%;
-
-    --chart-5: 340 75% 55%}}
+}
 
 @layer base {
   * {

@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <main suppressHydrationWarning>
       <ScrollUp />
-      <HeroSection />x
+      <HeroSection />
       <div className="container mx-auto max-w-6xl py-10">
         <WhoAreWe />
       </div>

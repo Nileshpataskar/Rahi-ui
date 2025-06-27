@@ -1,22 +1,55 @@
 import Breadcrumb from "../Common/Breadcrumb";
+import { useRef, useState } from "react";
+// Make sure to install @emailjs/browser: npm install @emailjs/browser
+import emailjs from "@emailjs/browser";
+import type { EmailJSResponseStatus } from "@emailjs/browser";
+
+const SERVICE_ID = "service_aols2vi";
+const TEMPLATE_ID = "template_zz288dm";
+const PUBLIC_KEY = "l6us1Y0pvG1gMFd7O";
 
 const Contact = () => {
+  const form = useRef<HTMLFormElement | null>(null);
+  const [loading, setLoading] = useState(false);
+  const [success, setSuccess] = useState("");
+  const [error, setError] = useState("");
+
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setLoading(true);
+    setSuccess("");
+    setError("");
+    if (!form.current) return;
+    emailjs
+      .sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY)
+      .then(
+        (result: EmailJSResponseStatus) => {
+          setSuccess("Message sent successfully!");
+          setLoading(false);
+        },
+        (error: any) => {
+          setError("Failed to send message. Please try again.");
+          setLoading(false);
+        }
+      );
+  };
+
   return (
     <section id="contact" className="relative py-20 md:py-[20px]">
       <div className="absolute left-0 top-0 -z-[1] h-full w-full dark:bg-primary"></div>
 
       {/* <Breadcrumb pageName="Contact Page" /> */}
 
-      <div className="absolute left-0 top-0 -z-[1] h-1/2 w-full bg-[#E9F9FF] dark:bg-dark-700 lg:h-[45%] xl:h-1/2"></div>
+      <div className="absolute left-0 top-0 -z-[1] h-1/2 w-full bg-[#E9F9FF] lg:h-[45%] xl:h-1/2"></div>
       <div className="container px-4">
         <div className="-mx-4 flex flex-wrap items-center">
           <div className="w-full px-4 lg:w-7/12 xl:w-8/12">
             <div className="ud-contact-content-wrapper">
               <div className="ud-contact-title mb-12 lg:mb-[150px]">
-                <span className="mb-6 block text-base font-medium text-dark dark:text-white">
+                <span className="mb-6 block text-base font-medium text-dark">
                   CONTACT US
                 </span>
-                <h2 className="max-w-[300px] text-[35px] font-semibold leading-[1.14] text-dark dark:text-white">
+                <h2 className="max-w-[300px] text-[35px] font-semibold leading-[1.14] text-dark">
                   You have a query, Let&#39;s talk.
                 </h2>
               </div>
@@ -34,10 +67,10 @@ const Contact = () => {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="mb-[18px] text-lg font-semibold text-dark dark:text-white">
+                    <h3 className="mb-[18px] text-lg font-semibold text-dark">
                       Our Location
                     </h3>
-                    <p className="text-base text-body-color dark:text-dark-6">
+                    <p className="text-base text-body-color">
                       Sr No 323, 3A, Uruli Devachi, Pune, Maharashtra 412308{" "}
                     </p>
                   </div>
@@ -54,10 +87,10 @@ const Contact = () => {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="mb-[18px] text-lg font-semibold text-dark dark:text-white">
+                    <h3 className="mb-[18px] text-lg font-semibold text-dark">
                       How Can We Help?
                     </h3>
-                    <p className="text-base text-body-color dark:text-dark-6">
+                    <p className="text-base text-body-color">
                       sales@rahiindustries.in
                     </p>
                   </div>
@@ -67,18 +100,17 @@ const Contact = () => {
           </div>
           <div className="w-full px-4 lg:w-5/12 xl:w-4/12">
             <div
-              className="wow fadeInUp rounded-lg bg-white px-8 py-10 shadow-testimonial dark:bg-dark-2 dark:shadow-none sm:px-10 sm:py-12 md:p-[60px] lg:p-10 lg:px-10 lg:py-12 2xl:p-[60px]"
-              data-wow-delay=".2s
-              "
+              className="wow fadeInUp rounded-lg bg-white px-8 py-10 shadow-testimonial sm:px-10 sm:py-12 md:p-[60px] lg:p-10 lg:px-10 lg:py-12 2xl:p-[60px]"
+              data-wow-delay=".2s"
             >
-              <h3 className="mb-8 text-2xl font-semibold text-dark dark:text-white md:text-[28px] md:leading-[1.42]">
+              <h3 className="mb-8 text-2xl font-semibold text-dark md:text-[28px] md:leading-[1.42]">
                 Send us a Message
               </h3>
-              <form>
+              <form ref={form} onSubmit={sendEmail}>
                 <div className="mb-[22px]">
                   <label
                     htmlFor="fullName"
-                    className="mb-4 block text-sm text-body-color dark:text-dark-6"
+                    className="mb-4 block text-sm text-body-color"
                   >
                     Full Name*
                   </label>
@@ -86,13 +118,14 @@ const Contact = () => {
                     type="text"
                     name="fullName"
                     placeholder="Raj Patil"
-                    className="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-dark placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-white"
+                    required
+                    className="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-dark placeholder:text-body-color/60 focus:border-primary focus:outline-none"
                   />
                 </div>
                 <div className="mb-[22px]">
                   <label
                     htmlFor="email"
-                    className="mb-4 block text-sm text-body-color dark:text-dark-6"
+                    className="mb-4 block text-sm text-body-color"
                   >
                     Email*
                   </label>
@@ -100,13 +133,14 @@ const Contact = () => {
                     type="email"
                     name="email"
                     placeholder="example@yourmail.com"
-                    className="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-dark placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-white"
+                    required
+                    className="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-dark placeholder:text-body-color/60 focus:border-primary focus:outline-none"
                   />
                 </div>
                 <div className="mb-[22px]">
                   <label
                     htmlFor="phone"
-                    className="mb-4 block text-sm text-body-color dark:text-dark-6"
+                    className="mb-4 block text-sm text-body-color"
                   >
                     Phone*
                   </label>
@@ -114,13 +148,14 @@ const Contact = () => {
                     type="text"
                     name="phone"
                     placeholder="+91 9999 999 999"
-                    className="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-dark placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-white"
+                    required
+                    className="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-dark placeholder:text-body-color/60 focus:border-primary focus:outline-none"
                   />
                 </div>
                 <div className="mb-[30px]">
                   <label
                     htmlFor="message"
-                    className="mb-4 block text-sm text-body-color dark:text-dark-6"
+                    className="mb-4 block text-sm text-body-color"
                   >
                     Message*
                   </label>
@@ -128,15 +163,19 @@ const Contact = () => {
                     name="message"
                     rows={1}
                     placeholder="type your message here"
-                    className="w-full resize-none border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-dark placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-white"
+                    required
+                    className="w-full resize-none border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-dark placeholder:text-body-color/60 focus:border-primary focus:outline-none"
                   ></textarea>
                 </div>
+                {success && <p className="mb-4 text-green-600">{success}</p>}
+                {error && <p className="mb-4 text-red-600">{error}</p>}
                 <div className="mb-0">
                   <button
                     type="submit"
                     className="inline-flex items-center justify-center rounded-md bg-primary px-10 py-3 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-primary/90"
+                    disabled={loading}
                   >
-                    Send
+                    {loading ? "Sending..." : "Send"}
                   </button>
                 </div>
               </form>
