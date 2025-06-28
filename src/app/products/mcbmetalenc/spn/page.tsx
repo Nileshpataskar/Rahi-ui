@@ -14,146 +14,148 @@ const SPNMetalMCBEnclosures: React.FC = () => {
     "Durable metal construction",
     "Multiple way configurations",
     "Professional grade finish",
-    "Suitable for modular switches"
+    "Suitable for MCB Switches",
+    "Superior powder Coated"
+
   ];
 
   const spnProducts: Product[] = [
     {
       id: "1",
-      code: "SPN2P",
+      code: "ME02",
       title: "2 Pole MCB Metal Enclosure",
       description: "Premium 2 pole metal enclosure designed for MCBs.",
       image: "https://drive.google.com/file/d/1cGB24jXZTVKCGhDG1mbui-6mzG8SeiQY/view?usp=drive_link",
       specifications: {
         Model: "2 Pole",
         Type: "Metal Enclosure",
-        Code: "SPN2P",
+        Code: "ME02",
         Application: "MCB installation"
       },
       category: "SPN Metal MCB Enclosure"
     },
     {
       id: "2",
-      code: "SPN4P",
+      code: "ME04",
       title: "4 Pole MCB Metal Enclosure",
       description: "Premium 4 pole metal enclosure designed for MCBs.",
       image: "https://drive.google.com/file/d/1e1c4c1QWz1mbOD6z4oW9YuCicwMJ1DaV/view?usp=drive_link",
       specifications: {
         Model: "4 Pole",
         Type: "Metal Enclosure",
-        Code: "SPN4P",
+        Code: "ME04",
         Application: "MCB installation"
       },
       category: "SPN Metal MCB Enclosure"
     },
     {
       id: "3",
-      code: "SPN2PL",
+      code: "ME02L",
       title: "2 Pole Long MCB Metal Enclosure",
       description: "Premium 2 pole long metal enclosure designed for MCBs.",
       image: "https://drive.google.com/file/d/1vewTkOI2liRhrjZIux62X9TDsBbTUGzK/view?usp=drive_link",
       specifications: {
         Model: "2 Pole Long",
         Type: "Metal Enclosure",
-        Code: "SPN2PL",
+        Code: "ME02L",
         Application: "MCB installation"
       },
       category: "SPN Metal MCB Enclosure"
     },
     {
       id: "4",
-      code: "SPN4PL",
+      code: "ME04L",
       title: "4 Pole Long MCB Metal Enclosure",
       description: "Premium 4 pole long metal enclosure designed for MCBs.",
       image: "https://drive.google.com/file/d/1e1c4c1QWz1mbOD6z4oW9YuCicwMJ1DaV/view?usp=drive_link",
       specifications: {
         Model: "4 Pole Long",
         Type: "Metal Enclosure",
-        Code: "SPN4PL",
+        Code: "ME04L",
         Application: "MCB installation"
       },
       category: "SPN Metal MCB Enclosure"
     },
     {
       id: "5",
-      code: "SPN6P",
+      code: "ME06",
       title: "6 Pole MCB Metal Enclosure",
       description: "Premium 6 pole metal enclosure designed for MCBs.",
       image: "https://drive.google.com/file/d/1yEQ0iy7RrqBKVUXH8-8k9lGJfFfuqPo2/view?usp=drive_link",
       specifications: {
         Model: "6 Pole",
         Type: "Metal Enclosure",
-        Code: "SPN6P",
+        Code: "ME06",
         Application: "MCB installation"
       },
       category: "SPN Metal MCB Enclosure"
     },
     {
       id: "6",
-      code: "SPN6W",
+      code: "ME26",
       title: "6 Way MCB Metal Enclosure",
       description: "Premium 6 way metal enclosure designed for MCBs.",
       image: "https://drive.google.com/file/d/1BYsgSM2krYz_UQJEuCk0BEF-MRk-HePG/view?usp=drive_link",
       specifications: {
         Model: "6 Way",
         Type: "Metal Enclosure",
-        Code: "SPN6W",
+        Code: "ME26",
         Application: "MCB installation"
       },
       category: "SPN Metal MCB Enclosure"
     },
     {
       id: "7",
-      code: "SPN8W",
+      code: "ME08",
       title: "8 Way MCB Metal Enclosure",
       description: "Premium 8 way metal enclosure designed for MCBs.",
       image: "https://drive.google.com/file/d/18noxCDTq0PVaUqiSJDWqfYIoRfkhh5_V/view?usp=drive_link",
       specifications: {
         Model: "8 Way",
         Type: "Metal Enclosure",
-        Code: "SPN8W",
+        Code: "ME08",
         Application: "MCB installation"
       },
       category: "SPN Metal MCB Enclosure"
     },
     {
       id: "8",
-      code: "SPN10W",
+      code: "ME10",
       title: "10 Way MCB Metal Enclosure",
       description: "Premium 10 way metal enclosure designed for MCBs.",
       image: "https://drive.google.com/file/d/18noxCDTq0PVaUqiSJDWqfYIoRfkhh5_V/view?usp=drive_link",
       specifications: {
         Model: "10 Way",
         Type: "Metal Enclosure",
-        Code: "SPN10W",
+        Code: "ME10",
         Application: "MCB installation"
       },
       category: "SPN Metal MCB Enclosure"
     },
     {
       id: "9",
-      code: "SPN12W",
+      code: "ME12",
       title: "12 Way MCB Metal Enclosure",
       description: "Premium 12 way metal enclosure designed for MCBs.",
       image: "https://drive.google.com/file/d/15gkKQn2BkpX0YcBDR-4_L9xZDM2q_a-y/view?usp=drive_link",
       specifications: {
         Model: "12 Way",
         Type: "Metal Enclosure",
-        Code: "SPN12W",
+        Code: "ME12",
         Application: "MCB installation"
       },
       category: "SPN Metal MCB Enclosure"
     },
     {
       id: "10",
-      code: "SPN16W",
+      code: "ME16",
       title: "16 Way MCB Metal Enclosure",
       description: "Premium 16 way metal enclosure designed for MCBs.",
       image: "https://drive.google.com/file/d/15gkKQn2BkpX0YcBDR-4_L9xZDM2q_a-y/view?usp=drive_link",
       specifications: {
         Model: "16 Way",
         Type: "Metal Enclosure",
-        Code: "SPN16W",
+        Code: "ME16",
         Application: "MCB installation"
       },
       category: "SPN Metal MCB Enclosure"

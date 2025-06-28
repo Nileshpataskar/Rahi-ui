@@ -24,7 +24,7 @@ const NonISIPipe: React.FC = () => {
       code: "NP20H",
       title: "20mm NOVA PVC Pipe ",
       description:
-        "20mm High Mechanical Stress PVC conduit pipe from NOVA series.",
+        "20mm PVC conduit pipe from NOVA series.",
       image:
         "https://drive.google.com/file/d/1EiyqZtw_AogxZDyezHKNrtAQJqcO81yd/view?usp=drive_link",
       specifications: {
@@ -41,14 +41,15 @@ const NonISIPipe: React.FC = () => {
       code: "NP25H",
       title: "25mm NOVA PVC Pipe ",
       description:
-        "25mm High Mechanical Stress PVC conduit pipe from NOVA series.",
+        "25mm PVC conduit pipe from NOVA series.",
       image:
         "https://drive.google.com/file/d/1GD0Xr4EHKP7J_HCijyrTUae9YsKYCtFK/view?usp=drive_link",
       specifications: {
         Size: "25mm",
         Type: "Non-ISI PVC Pipe",
+        Color: "Black, Gray, Ivory, White",
         Series: "NOVA",
-        "Stress Level Available": "LMS - MMS - HMS",
+        "Available in": "LMS - MMS - HMS",
         "Available Colors": "Ivory, Grey, Black",
       },
       category: "PVC Conduit Pipe",
@@ -60,15 +61,15 @@ const NonISIPipe: React.FC = () => {
       code: "NP32H",
       title: "32mm NOVA PVC Pipe ",
       description:
-        "32mm High Mechanical Stress PVC conduit pipe from NOVA series.",
+        "32mm PVC conduit pipe from NOVA series.",
       image:
         "https://drive.google.com/file/d/10_bUfBaCm9lnvk-qbrlwfdSAH7z8d3e5/view?usp=drive_link",
       specifications: {
         Size: "32mm",
         Type: "Non-ISI PVC Pipe",
         Series: "NOVA",
-        "Stress Level Available": "LMS - MMS - HMS",
-        "Available Colors": "Ivory, Grey, Black",
+        "Available in": "LMS - MMS - HMS",
+        "Colors": "Ivory, Grey, Black",
       },
       category: "PVC Conduit Pipe",
     },

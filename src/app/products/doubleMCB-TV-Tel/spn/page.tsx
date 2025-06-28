@@ -13,13 +13,14 @@ const SPNDoubleDoorTVTelBox: React.FC = () => {
     "Double door design",
     "Prime series premium quality",
     "Multiple way configurations",
-    "Professional grade finish"
+    "Professional grade finish",
+    "Superior Powder Coated"
   ];
 
   const spnProducts: Product[] = [
     {
       id: "1",
-      code: "METVT08",
+      code: "PMSPN08TV-TEL",
       title: "8 way SPN Double Door MCB Box With TV-TEL",
       description: 
         "Premium 8 way Single Phase Neutral Double Door MCB distribution box with TV and Telephone compartments from Prime series.",
@@ -29,14 +30,14 @@ const SPNDoubleDoorTVTelBox: React.FC = () => {
         Ways: "8",
         Series: "Prime",
         "Additional Features": "TV and Telephone compartments",
-        Code: "METVT08",
+        Code: "PMSPN08TV-TEL",
         Application: "MCB distribution with media connections"
       },
       category: "SPN Double Door MCB Box with TV-TEL"
     },
     {
       id: "2",
-      code: "METVT12",
+      code: "PMSPN12TV-TEL",
       title: "12 way TPN Double Door MCB Box With TV-TEL",
       description: 
         "Premium 12 way Three Phase Neutral Double Door MCB distribution box with TV and Telephone compartments from Prime series.",
@@ -46,14 +47,14 @@ const SPNDoubleDoorTVTelBox: React.FC = () => {
         Ways: "12",
         Series: "Prime",
         "Additional Features": "TV and Telephone compartments",
-        Code: "METVT12",
+        Code: "PMSPN12TV-TEL",
         Application: "MCB distribution with media connections"
       },
       category: "TPN Double Door MCB Box with TV-TEL"
     },
     {
       id: "3",
-      code: "METVT16",
+      code: "PMSPN16TV-TEL",
       title: "16 way TPN Double Door MCB Box with TV-TEL",
       description: 
         "Premium 16 way Three Phase Neutral Double Door MCB distribution box with TV and Telephone compartments from Prime series.",
@@ -63,7 +64,7 @@ const SPNDoubleDoorTVTelBox: React.FC = () => {
         Ways: "16",
         Series: "Prime",
         "Additional Features": "TV and Telephone compartments",
-        Code: "METVT16",
+        Code: "PMSPN16TV-TEL",
         Application: "MCB distribution with media connections"
       },
       category: "TPN Double Door MCB Box with TV-TEL"

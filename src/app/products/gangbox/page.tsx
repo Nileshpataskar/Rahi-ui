@@ -15,7 +15,6 @@ const SilverLineGangBox: React.FC = () => {
     "Multiple model configurations",
     "Surface mounting design",
     "Durable construction",
-    "Various size options from 1 to 18 models",
   ];
 
   const gangBoxProducts: Product[] = [

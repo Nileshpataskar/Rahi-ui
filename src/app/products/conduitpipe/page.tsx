@@ -29,7 +29,8 @@ const ISIPipe: React.FC = () => {
         "https://drive.google.com/file/d/1EiyqZtw_AogxZDyezHKNrtAQJqcO81yd/view?usp=drive_link",
       specifications: {
         Size: "20MM",
-        Type: "ISI PVC Pipe",
+        Type: "LMS,MMS,HMS",
+        Color: "Black, Gray, Ivory, White",
         Certification: "ISI Marked",
         Standard: "IS:9537 Part-III",
         Application: "Electrical conduit installations"
@@ -46,7 +47,8 @@ const ISIPipe: React.FC = () => {
         "https://drive.google.com/file/d/1GD0Xr4EHKP7J_HCijyrTUae9YsKYCtFK/view?usp=drive_link",
       specifications: {
         Size: "25MM",
-        Type: "ISI PVC Pipe",
+        Type: "LMS,MMS,HMS",
+        Color: "Black, Gray, Ivory, White",
         Certification: "ISI Marked",
         Standard: "IS:9537 Part-III",
         Application: "Electrical conduit installations"
@@ -63,7 +65,8 @@ const ISIPipe: React.FC = () => {
         "https://drive.google.com/file/d/10_bUfBaCm9lnvk-qbrlwfdSAH7z8d3e5/view?usp=drive_link",
       specifications: {
         Size: "32MM",
-        Type: "ISI PVC Pipe",
+        Type: "LMS,MMS,HMS",
+        Color: "Black, Gray, Ivory, White",
         Certification: "ISI Marked",
         Standard: "IS:9537 Part-III",
         Application: "Electrical conduit installations"
@@ -80,7 +83,8 @@ const ISIPipe: React.FC = () => {
         "https://drive.google.com/file/d/1q_SPTH-PFY2xYuzAGR1FJaaKtM-hsreS/view?usp=drive_link",
       specifications: {
         Size: "40MM",
-        Type: "ISI PVC Pipe",
+        Type: "LMS,MMS,HMS",
+        Color: "Black, Gray, Ivory, White",
         Certification: "ISI Marked",
         Standard: "IS:9537 Part-III",
         Application: "Electrical conduit installations"
@@ -97,7 +101,8 @@ const ISIPipe: React.FC = () => {
         "https://drive.google.com/file/d/1l_mygR_Rt6nqbWYZr0S14LbviKrPWqSw/view?usp=drive_link",
       specifications: {
         Size: "50MM",
-        Type: "ISI PVC Pipe",
+        Type: "LMS,MMS,HMS",
+        Color: "Black, Gray, Ivory, White",
         Certification: "ISI Marked",
         Standard: "IS:9537 Part-III",
         Application: "Electrical conduit installations"

@@ -16,12 +16,13 @@ const TPNPrimeDoubleDoorBox: React.FC = () => {
     "Double door configuration",
     "Multiple way options",
     "Professional grade finish",
+    "Superior Powder Coated"
   ];
 
   const tpnProducts: Product[] = [
     {
       id: "1",
-      code: "TPSD04",
+      code: "PMTPN04",
       title: "4 way TPN Prime Series Double Door MCB Box",
       description:
         "Premium 4 way Three Phase Neutral Double Door MCB distribution box from Prime series.",
@@ -30,14 +31,14 @@ const TPNPrimeDoubleDoorBox: React.FC = () => {
         Type: "TPN Double Door",
         Ways: "4",
         Series: "Prime",
-        Code: "TPSD04",
+        Code: "PMTPN04",
         Application: "Three Phase distribution",
       },
       category: "TPN Prime Double Door Box",
     },
     {
       id: "2",
-      code: "TPSD06",
+      code: "PMTPN06",
       title: "6 way TPN Prime Series Double Door MCB Box",
       description:
         "Premium 6 way Three Phase Neutral Double Door MCB distribution box from Prime series.",
@@ -47,14 +48,14 @@ const TPNPrimeDoubleDoorBox: React.FC = () => {
         Type: "TPN Double Door",
         Ways: "6",
         Series: "Prime",
-        Code: "TPSD06",
+        Code: "PMTPN06",
         Application: "Three Phase distribution",
       },
       category: "TPN Prime Double Door Box",
     },
     {
       id: "3",
-      code: "TPSD08",
+      code: "PMTPN08",
       title: "8 way TPN Prime Series Double Door MCB Box",
       description:
         "Premium 8 way Three Phase Neutral Double Door MCB distribution box from Prime series.",
@@ -64,14 +65,14 @@ const TPNPrimeDoubleDoorBox: React.FC = () => {
         Type: "TPN Double Door",
         Ways: "8",
         Series: "Prime",
-        Code: "TPSD08",
+        Code: "PMTPN08",
         Application: "Three Phase distribution",
       },
       category: "TPN Prime Double Door Box",
     },
     {
       id: "4",
-      code: "TPSD12",
+      code: "PMTPN12",
       title: "12 way TPN Prime Series Double Door MCB Box",
       description:
         "Premium 12 way Three Phase Neutral Double Door MCB distribution box from Prime series.",
@@ -81,7 +82,7 @@ const TPNPrimeDoubleDoorBox: React.FC = () => {
         Type: "TPN Double Door",
         Ways: "12",
         Series: "Prime",
-        Code: "TPSD12",
+        Code: "PMTPN12",
         Application: "Three Phase distribution",
       },
       category: "TPN Prime Double Door Box",

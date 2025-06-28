@@ -14,62 +14,64 @@ const TPNMetalMCBEnclosures: React.FC = () => {
     "Durable metal construction",
     "Multiple way configurations",
     "Professional grade finish",
-    "Suitable for modular switches"
+    "Suitable for MCB Switches",
+    "Superior powder Coated"
+
   ];
 
   const tpnProducts: Product[] = [
     {
       id: "1",
-      code: "TPN4W",
+      code: "TPSD04",
       title: "4 Way TPN MCB Metal Enclosure Single Door",
       description: "Premium 4 way TPN metal enclosure designed for MCBs.",
       image: "https://drive.google.com/file/d/1Q2PaKLjRwhzEYFEd4wJoISL5PbO7rxxN/view?usp=drive_link",
       specifications: {
         Model: "4 Way",
         Type: "TPN Metal Enclosure",
-        Code: "TPN4W",
+        Code: "TPSD04",
         Application: "MCB installation"
       },
       category: "TPN Metal MCB Enclosure"
     },
     {
       id: "2",
-      code: "TPN6W",
+      code: "TPSD06",
       title: "6 Way TPN MCB Metal Enclosure Single Door",
       description: "Premium 6 way TPN metal enclosure designed for MCBs.",
       image: "https://drive.google.com/file/d/1mLpXY0Uli4yXl9Ls-9hTLO3_gusuNWO8/view?usp=drive_link",
       specifications: {
         Model: "6 Way",
         Type: "TPN Metal Enclosure",
-        Code: "TPN6W",
+        Code: "TPSD06",
         Application: "MCB installation"
       },
       category: "TPN Metal MCB Enclosure"
     },
     {
       id: "3",
-      code: "TPN8W",
+      code: "TPSD08",
       title: "8 Way TPN MCB Metal Enclosure Single Door",
       description: "Premium 8 way TPN metal enclosure designed for MCBs.",
       image: "https://drive.google.com/file/d/18gKB72wDGm8oYpfKwc-awZvtzUq6Y9G1/view?usp=drive_link",
       specifications: {
         Model: "8 Way",
         Type: "TPN Metal Enclosure",
-        Code: "TPN8W",
+        Code: "TPSD08",
         Application: "MCB installation"
       },
       category: "TPN Metal MCB Enclosure"
     },
     {
       id: "4",
-      code: "TPN12W",
+      code: "TPSD12",
       title: "12 Way TPN MCB Metal Enclosure Single Door",
       description: "Premium 12 way TPN metal enclosure designed for MCBs.",
       image: "https://drive.google.com/file/d/1nR0hOsVt1hRlyZ6BfT-XutX3FU4xuuBa/view?usp=drive_link",
       specifications: {
         Model: "12 Way",
         Type: "TPN Metal Enclosure",
-        Code: "TPN12W",
+        Code: "TPSD12",
         Application: "MCB installation"
       },
       category: "TPN Metal MCB Enclosure"

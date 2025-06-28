@@ -21,13 +21,13 @@ const ABSMCBBox: React.FC = () => {
       id: "1",
       code: "P002",
       title: "1/2 way ABS MCB Box",
-      description: "Premium 1/2 way ABS MCB box designed for modular switches.",
+      description: "Premium 1/2 way ABS MCB box designed for MCB Switches.",
       image: "https://drive.google.com/file/d/1bfHDN8mbwwzrKHs1wBN2omM3WRkQK0zz/view?usp=drive_link",
       specifications: {
         Model: "1/2 way",
         Type: "ABS MCB Box",
         Code: "P002",
-        Application: "Modular switch mounting"
+        Application: "MCB Mounting"
       },
       category: "ABS MCB Box"
     },
@@ -35,13 +35,13 @@ const ABSMCBBox: React.FC = () => {
       id: "2",
       code: "P004",
       title: "3/4 way ABS MCB Box",
-      description: "Premium 3/4 way ABS MCB box designed for modular switches.",
+      description: "Premium 3/4 way ABS MCB box designed for MCB Switches.",
       image: "https://drive.google.com/file/d/1sG0MOU6B07XmuW9eIuPR24jJxb5f1nvK/view?usp=drive_link",
       specifications: {
         Model: "3/4 way",
         Type: "ABS MCB Box",
         Code: "P004",
-        Application: "Modular switch mounting"
+        Application: "MCB Mounting"
       },
       category: "ABS MCB Box"
     }
@@ -81,7 +81,7 @@ const ABSMCBBox: React.FC = () => {
     <ModernProductLayout
       products={absProducts}
       heroTitle="ABS Double Door MCB Box"
-      heroDescription="High-quality ABS MCB boxes available in multiple sizes for modular switches"
+      heroDescription="High-quality ABS MCB boxes available in multiple sizes for MCB Switches"
       carouselImages={carouselImages}
       features={features}
       benefits={benefits}

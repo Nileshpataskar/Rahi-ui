@@ -16,12 +16,13 @@ const SPNDoubleDoorBox: React.FC = () => {
     "Multiple way configurations",
     "Durable construction",
     "Professional grade finish",
+    "Superior Powder Coated"
   ];
 
   const spnProducts: Product[] = [
     {
       id: "1",
-      code: "ME06",
+      code: "PMSPN08",
       title: "6/8 way SPN Double Door MCB Box Prime series",
       description:
         "Premium 6/8 way Single Phase Neutral Double Door MCB distribution box from Prime series.",
@@ -30,14 +31,14 @@ const SPNDoubleDoorBox: React.FC = () => {
         Type: "SPN Double Door",
         Ways: "6/8",
         Series: "Prime",
-        Code: "ME06",
+        Code: "PMSPN08",
         Application: "MCB distribution",
       },
       category: "SPN Double Door MCB Box",
     },
     {
       id: "2",
-      code: "ME08",
+      code: "PMSPN12",
       title: "10/12 way SPN Double Door MCB Box Prime series",
       description:
         "Premium 10/12 way Single Phase Neutral Double Door MCB distribution box from Prime series.",
@@ -46,14 +47,14 @@ const SPNDoubleDoorBox: React.FC = () => {
         Type: "SPN Double Door",
         Ways: "10/12",
         Series: "Prime",
-        Code: "ME08",
+        Code: "PMSPN12",
         Application: "MCB distribution",
       },
       category: "SPN Double Door MCB Box",
     },
     {
       id: "3",
-      code: "ME10",
+      code: "PMSPN16",
       title: "14/16 way SPN Double Door MCB Box Prime series",
       description:
         "Premium 14/16 way Single Phase Neutral Double Door MCB distribution box from Prime series.",
@@ -62,7 +63,7 @@ const SPNDoubleDoorBox: React.FC = () => {
         Type: "SPN Double Door",
         Ways: "14/16",
         Series: "Prime",
-        Code: "ME10",
+        Code: "PMSPN16",
         Application: "MCB distribution",
       },
       category: "SPN Double Door MCB Box",

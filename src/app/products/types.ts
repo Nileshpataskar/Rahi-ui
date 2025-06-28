@@ -6,6 +6,7 @@ export interface Product {
   specifications?: Record<string, string>;
   category: string;
   image: string;
+  carouselImages?: string[];
 }
 
 export interface ModernProductLayoutProps {

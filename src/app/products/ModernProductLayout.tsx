@@ -47,7 +47,11 @@ const ModernProductLayout: React.FC<ModernProductLayoutProps> = ({
   }
 
   // Combine provided images with product image
-  const allImages = [activeProduct.image, ...carouselImages].filter(Boolean);
+  const allImages = carouselImages.length > 0 
+    ? [activeProduct.image, ...carouselImages].filter(Boolean)
+    : activeProduct.carouselImages && activeProduct.carouselImages.length > 0
+    ? [activeProduct.image, ...activeProduct.carouselImages].filter(Boolean)
+    : [activeProduct.image];
 
   const nextImage = () => {
     setCurrentImageIndex((prev) => (prev + 1) % allImages.length);

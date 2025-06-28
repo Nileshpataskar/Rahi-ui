@@ -90,8 +90,14 @@ const menuData: Menu[] = [
       },
       {
         id: 69,
-        title: "Modular GI Metal Box",
+        title: "Modular GI Metal Box - Standard",
         path: "/products/modulargimetalbox",
+        newTab: false,
+      },
+      {
+        id: 69,
+        title: "Modular GI Metal Box - 40 mm depth MIVAN Cnstruction",
+        path: "/products/modularGi40",
         newTab: false,
       },
       {
@@ -125,12 +131,12 @@ const menuData: Menu[] = [
           },
         ],
       },
-      // {
-      //   id: 73,
-      //   title: "Round Fan Box GI",
-      //   path: "/products/fanbox",
-      //   newTab: false,
-      // },
+      {
+        id: 73,
+        title: "Round Fan Box GI",
+        path: "/products/fanbox",
+        newTab: false,
+      },
       {
         id: 74,
         title: "Round Plates",

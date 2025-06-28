@@ -21,7 +21,7 @@ const RoundPlates: React.FC = () => {
   const roundPlateProducts: Product[] = [
     {
       id: "1",
-      code: "RP425",
+      code: "RP04",
       title: "4.25 inch Round Plate",
       description:
         "4.25 inch round plate perfect for standard electrical installations.",
@@ -38,7 +38,7 @@ const RoundPlates: React.FC = () => {
     },
     {
       id: "2",
-      code: "RP500",
+      code: "RP05",
       title: "5 inch Round Plate",
       description:
         "5 inch round plate suitable for various electrical applications.",
@@ -55,7 +55,7 @@ const RoundPlates: React.FC = () => {
     },
     {
       id: "3",
-      code: "RP600",
+      code: "RP06",
       title: "6 inch Fan Plate",
       description:
         "6 inch fan plate specifically designed for ceiling fan installations.",

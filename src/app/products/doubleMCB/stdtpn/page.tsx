@@ -16,6 +16,7 @@ const TPNDoubleDoorBox: React.FC = () => {
     "Multiple way options",
     "Durable construction",
     "Professional finish",
+    "Superior Powder Coated"
   ];
 
   const tpnProducts: Product[] = [

@@ -14,13 +14,14 @@ const TPNDoubleDoorTVTelBox: React.FC = () => {
     "Integrated TV and Telephone compartments",
     "Double door configuration",
     "Prime series premium quality",
-    "Multiple way options"
+    "Multiple way options",
+    "Superior powder Coated"
   ];
 
   const tpnProducts: Product[] = [
     {
       id: "1",
-      code: "METVT4T",
+      code: "PMTPN04TV-TEL",
       title: "4 way TPN Double Door MCB Box With TV-TEL",
       description: 
         "Premium 4 way Three Phase Neutral Double Door MCB distribution box with TV and Telephone compartments from Prime series.",
@@ -30,14 +31,14 @@ const TPNDoubleDoorTVTelBox: React.FC = () => {
         Ways: "4",
         Series: "Prime",
         "Additional Features": "TV and Telephone compartments",
-        Code: "METVT4T",
+        Code: "PMTPN04TV-TEL",
         Application: "Three Phase MCB distribution with media connections"
       },
       category: "TPN Double Door MCB Box with TV-TEL"
     },
     {
       id: "2",
-      code: "METVT6T",
+      code: "PMTPN06TV-TEL",
       title: "6 way TPN Double Door MCB Box With TV-TEL",
       description: 
         "Premium 6 way Three Phase Neutral Double Door MCB distribution box with TV and Telephone compartments from Prime series.",
@@ -47,14 +48,14 @@ const TPNDoubleDoorTVTelBox: React.FC = () => {
         Ways: "6",
         Series: "Prime",
         "Additional Features": "TV and Telephone compartments",
-        Code: "METVT6T",
+        Code: "PMTPN06TV-TEL",
         Application: "Three Phase MCB distribution with media connections"
       },
       category: "TPN Double Door MCB Box with TV-TEL"
     },
     {
       id: "3",
-      code: "METVT8T",
+      code: "PMTPN08TV-TEL",
       title: "8 way TPN Double Door MCB Box with TV-TEL",
       description: 
         "Premium 8 way Three Phase Neutral Double Door MCB distribution box with TV and Telephone compartments from Prime series.",
@@ -64,14 +65,14 @@ const TPNDoubleDoorTVTelBox: React.FC = () => {
         Ways: "8",
         Series: "Prime",
         "Additional Features": "TV and Telephone compartments",
-        Code: "METVT8T",
+        Code: "PMTPN08TV-TEL",
         Application: "Three Phase MCB distribution with media connections"
       },
       category: "TPN Double Door MCB Box with TV-TEL"
     },
     {
       id: "4",
-      code: "METVT12T",
+      code: "PMTPN12TV-TEL",
       title: "12 way TPN Double Door MCB Box with TV-TEL",
       description: 
         "Premium 12 way Three Phase Neutral Double Door MCB distribution box with TV and Telephone compartments from Prime series.",
@@ -81,7 +82,7 @@ const TPNDoubleDoorTVTelBox: React.FC = () => {
         Ways: "12",
         Series: "Prime",
         "Additional Features": "TV and Telephone compartments",
-        Code: "METVT12T",
+        Code: "PMTPN12TV-TEL",
         Application: "Three Phase MCB distribution with media connections"
       },
       category: "TPN Double Door MCB Box with TV-TEL"

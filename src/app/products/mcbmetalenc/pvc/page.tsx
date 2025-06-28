@@ -14,7 +14,7 @@ const PVCMCBBox: React.FC = () => {
     "Multiple way configurations",
     "Professional grade finish",
     "Easy installation",
-    "Suitable for modular switches"
+    "Suitable for MCB Switches"
   ];
 
   const pvcProducts: Product[] = [
@@ -22,13 +22,13 @@ const PVCMCBBox: React.FC = () => {
       id: "1",
       code: "MB01",
       title: "1/2 way PVC MCB Box",
-      description: "Premium 1/2 way PVC MCB box with metal back designed for modular switches.",
+      description: "Premium 1/2 way PVC MCB box with metal back designed for MCB Switches.",
       image: "https://drive.google.com/file/d/18LrFm75B_j59MsE9OQrDdpPUJUHZreJP/view?usp=drive_link",
       specifications: {
         Model: "1/2 way",
         Type: "PVC MCB Box with Metal Back",
         Code: "MB01",
-        Application: "Modular switch mounting"
+        Application: "MCB Mounting"
       },
       category: "PVC MCB Box"
     },
@@ -36,13 +36,13 @@ const PVCMCBBox: React.FC = () => {
       id: "2",
       code: "MB03",
       title: "3/4 way PVC MCB Box",
-      description: "Premium 3/4 way PVC MCB box with metal back designed for modular switches.",
+      description: "Premium 3/4 way PVC MCB box with metal back designed for MCB Switches.",
       image: "https://drive.google.com/file/d/16tJIsndPx_6DExE0PABvFfHNXyk4FqIB/view?usp=drive_link",
       specifications: {
         Model: "3/4 way",
         Type: "PVC MCB Box with Metal Back",
         Code: "MB03",
-        Application: "Modular switch mounting"
+        Application: "MCB Mounting"
       },
       category: "PVC MCB Box"
     }
@@ -82,7 +82,7 @@ const PVCMCBBox: React.FC = () => {
     <ModernProductLayout
       products={pvcProducts}
       heroTitle="PVC MCB Box With Metal Back"
-      heroDescription="High-quality PVC MCB boxes with metal back available in multiple sizes for modular switches"
+      heroDescription="High-quality PVC MCB boxes with metal back available in multiple sizes for MCB Switches"
       carouselImages={carouselImages}
       features={features}
       benefits={benefits}

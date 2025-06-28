@@ -9,7 +9,6 @@ const PVCBend: React.FC = () => {
   ];
 
   const features = [
-    "AS PER ISI: 3419/1988 certified",
     "High-quality PVC material",
     "Precise 90-degree bends",
     "Available in multiple sizes",
@@ -22,15 +21,15 @@ const PVCBend: React.FC = () => {
       code: "PB20",
       title: "20mm PVC Bend",
       description:
-        "20mm PVC bend for electrical conduit installations, compliant with ISI standards.",
+        "20mm PVC bend for electrical conduit installations.",
       image:
         "https://drive.google.com/file/d/1jzZ_N6Z--YRDIwZeMH6qKRWDQ_BQrRBm/view?usp=drive_link",
       specifications: {
         Size: "20mm",
         Material: "PVC",
         "Standard Packing": "50 pieces",
-        Standard: "ISI 3419/1988",
-        Type: "Electrical Conduit Bend"
+        Type: "Electrical Conduit Bend",
+        Color: "Black, Gray, Ivory, White",
       },
       category: "PVC Bend"
     },
@@ -39,15 +38,15 @@ const PVCBend: React.FC = () => {
       code: "PB25",
       title: "25mm PVC Bend",
       description:
-        "25mm PVC bend designed for electrical conduit systems, ISI certified.",
+        "25mm PVC bend designed for electrical conduit systems.",
       image:
         "https://drive.google.com/file/d/1xBIQBhIomZDTM1xXBpqrmC8xOrvLMuUG/view?usp=drive_link",
       specifications: {
         Size: "25mm",
         Material: "PVC",
         "Standard Packing": "50 pieces",
-        Standard: "ISI 3419/1988",
-        Type: "Electrical Conduit Bend"
+        Type: "Electrical Conduit Bend",
+        Color: "Black, Gray, Ivory, White",
       },
       category: "PVC Bend"
     }

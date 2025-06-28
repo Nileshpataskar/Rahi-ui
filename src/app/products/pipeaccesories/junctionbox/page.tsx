@@ -23,13 +23,14 @@ const JunctionBox: React.FC = () => {
       id: "1",
       code: "JB120",
       title: "1 Way Junction Box ",
-      description: "Single way junction box for 20mm conduit connections.",
+      description: "Single way junction box conduit connections.",
       image:
         "https://drive.google.com/file/d/1Ec13zl4R2whzrQ2wZ7ryRe3QQapIXTik/view?usp=drive_link",
       specifications: {
-        Size: "20mm",
+        Size: "20mm - 25mm",
         Type: "1 Way",
         "Standard Packing": "20 pieces",
+        Color: "Black, Gray, Ivory, White",
         Material: "PVC",
         Application: "Electrical junction",
       },
@@ -40,13 +41,14 @@ const JunctionBox: React.FC = () => {
       id: "2",
       code: "JB220",
       title: "2 Way Junction Box ",
-      description: "Two way junction box for 20mm conduit connections.",
+      description: "Two way junction box conduit connections.",
       image:
         "https://drive.google.com/file/d/1v-M4GQlZ4heEUE3TspZO7tT0t5mP6SlK/view?usp=drive_link",
       specifications: {
-        Size: "20mm",
+        Size: "20mm - 25mm",
         Type: "2 Way",
         "Standard Packing": "20 pieces",
+        Color: "Black, Gray, Ivory, White",
         Material: "PVC",
         Application: "Electrical junction",
       },
@@ -56,14 +58,15 @@ const JunctionBox: React.FC = () => {
     {
       id: "3",
       code: "JB320",
-      title: "3 Way Junction Box 20mm",
-      description: "Three way junction box for 20mm conduit connections.",
+      title: "3 Way Junction Box ",
+      description: "Three way junction box conduit connections.",
       image:
         "https://drive.google.com/file/d/1eOcPxtoqO5rtE5RukN3T3Uzwz1Jm2PjS/view?usp=drive_link",
       specifications: {
-        Size: "20mm",
+        Size: "20mm - 25mm",
         Type: "3 Way",
         "Standard Packing": "20 pieces",
+        Color: "Black, Gray, Ivory, White",
         Material: "PVC",
         Application: "Electrical junction",
       },
@@ -73,14 +76,15 @@ const JunctionBox: React.FC = () => {
     {
       id: "7",
       code: "JB420",
-      title: "4 Way Junction Box 20mm",
-      description: "Four way junction box for 20mm conduit connections.",
+      title: "4 Way Junction Box ",
+      description: "Four way junction box conduit connections.",
       image:
         "https://drive.google.com/file/d/1txPPegzsZg8jGrLXMY6Ehpu6WvzEHNW0/view?usp=drive_link",
       specifications: {
-        Size: "20mm",
+        Size: "20mm -25mm",
         Type: "4 Way",
         "Standard Packing": "20 pieces",
+        Color: "Black, Gray, Ivory, White",
         Material: "PVC",
         Application: "Electrical junction",
       },

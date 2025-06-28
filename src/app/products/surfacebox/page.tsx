@@ -21,14 +21,14 @@ const SurfaceBox: React.FC = () => {
       id: "1",
       code: "SB01",
       title: "1/2 Model Surface Box",
-      description: "Premium 1 or 2 model double wall surface box for modular switches.",
+      description: "Premium 1 or 2 model double wall surface box for MCB Switches.",
       image: "https://drive.google.com/file/d/1wh_emtkpV8U7QjYH8Dz7HcJTKJrjvuuJ/view?usp=drive_link",
       specifications: {
         Model: "1/2 Model",
         Type: "Double Wall Surface Box",
         "Standard Packing": "20 pieces",
         Code: "SB01",
-        Application: "Modular switch mounting"
+        Application: "MCB Mounting"
       },
       category: "Surface Box"
     },
@@ -36,14 +36,14 @@ const SurfaceBox: React.FC = () => {
       id: "2",
       code: "SB03",
       title: "3 Model Surface Box",
-      description: "Premium 3 model double wall surface box for modular switches.",
+      description: "Premium 3 model double wall surface box for MCB Switches.",
       image: "https://drive.google.com/file/d/1KtHm-uVuLZRa_n7lGxx0euiGi6wXimJe/view?usp=drive_link",
       specifications: {
         Model: "3 Model",
         Type: "Double Wall Surface Box",
         "Standard Packing": "20 pieces",
         Code: "SB03",
-        Application: "Modular switch mounting"
+        Application: "MCB Mounting"
       },
       category: "Surface Box"
     },
@@ -51,14 +51,14 @@ const SurfaceBox: React.FC = () => {
       id: "3",
       code: "SB04",
       title: "4 Model Surface Box",
-      description: "Premium 4 model double wall surface box for modular switches.",
+      description: "Premium 4 model double wall surface box for MCB Switches.",
       image: "https://drive.google.com/file/d/17leFocs2Zfe98J7z9SwDnAXN7XFXbPSc/view?usp=drive_link",
       specifications: {
         Model: "4 Model",
         Type: "Double Wall Surface Box",
         "Standard Packing": "20 pieces",
         Code: "SB04",
-        Application: "Modular switch mounting"
+        Application: "MCB Mounting"
       },
       category: "Surface Box"
     },
@@ -66,30 +66,30 @@ const SurfaceBox: React.FC = () => {
       id: "4",
       code: "SB06",
       title: "6 Model Surface Box",
-      description: "Premium 6 model double wall surface box for modular switches.",
+      description: "Premium 6 model double wall surface box for MCB Switches.",
       image: "https://drive.google.com/file/d/1V8jEkWbtRpirPrwSBuPMnu6bIJ4MhSAl/view?usp=drive_link",
       specifications: {
         Model: "6 Model",
         Type: "Double Wall Surface Box",
         "Standard Packing": "10 pieces",
         Code: "SB06",
-        Application: "Modular switch mounting"
+        Application: "MCB Mounting"
       },
       category: "Surface Box"
     },
-   
+
     {
       id: "6",
       code: "SB08",
       title: "8 Model SQ Surface Box",
-      description: "Premium 8 model square double wall surface box for modular switches.",
+      description: "Premium 8 model square double wall surface box for MCB Switches.",
       image: "https://drive.google.com/file/d/1SPAvulH3kvYxSlLmS6NTapBgyu0p_Lny/view?usp=drive_link",
       specifications: {
         Model: "8 Model SQ",
         Type: "Double Wall Surface Box",
         "Standard Packing": "10 pieces",
         Code: "SB08",
-        Application: "Modular switch mounting"
+        Application: "MCB Mounting"
       },
       category: "Surface Box"
     },
@@ -97,14 +97,14 @@ const SurfaceBox: React.FC = () => {
       id: "7",
       code: "SB12",
       title: "12 Model Surface Box",
-      description: "Premium 12 model double wall surface box for modular switches.",
+      description: "Premium 12 model double wall surface box for MCB Switches.",
       image: "https://drive.google.com/file/d/16hpyPWf8rHiBlVIbD3f0kR3zuG9DkWOE/view?usp=drive_link",
       specifications: {
         Model: "12 Model",
         Type: "Double Wall Surface Box",
         "Standard Packing": "10 pieces",
         Code: "SB12",
-        Application: "Modular switch mounting"
+        Application: "MCB Mounting"
       },
       category: "Surface Box"
     },
@@ -112,14 +112,14 @@ const SurfaceBox: React.FC = () => {
       id: "8",
       code: "SB18",
       title: "18 Model Surface Box",
-      description: "Premium 18 model double wall surface box for modular switches.",
+      description: "Premium 18 model double wall surface box for MCB Switches.",
       image: "https://drive.google.com/file/d/16N4tpv9DK032C-djRf2xWKV0Z1lPZ2wZ/view?usp=drive_link",
       specifications: {
         Model: "18 Model",
         Type: "Double Wall Surface Box",
         "Standard Packing": "5 pieces",
         Code: "SB18",
-        Application: "Modular switch mounting"
+        Application: "MCB Mounting"
       },
       category: "Surface Box"
     }
@@ -159,7 +159,7 @@ const SurfaceBox: React.FC = () => {
     <ModernProductLayout
       products={surfaceBoxProducts}
       heroTitle="Modular Double Wall Surface Box"
-      heroDescription="Premium quality surface boxes for modular switches with double wall construction"
+      heroDescription="Premium quality surface boxes for MCB Switches with double wall construction"
       carouselImages={carouselImages}
       features={features}
       benefits={benefits}

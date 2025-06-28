@@ -13,7 +13,6 @@ const DeepJunctionBox: React.FC = () => {
   const features = [
     "Deep design for extra wiring space",
     "Available in 20mm and 25mm sizes",
-    "1-way to 4-way configurations",
     "Durable PVC construction",
     "Standard 10-piece packaging",
   ];
@@ -22,15 +21,16 @@ const DeepJunctionBox: React.FC = () => {
     {
       id: "1",
       code: "DJB120",
-      title: "1 Way Deep Junction Box 20mm",
+      title: "1 Way Deep Junction Box ",
       description:
-        "20mm single way deep junction box for enhanced wiring space.",
+        " single way deep junction box for enhanced wiring space.",
       image:
         "https://drive.google.com/file/d/1B69YT9xmra9H8mbobIgj12GiF-9nO7Tb/view?usp=drive_link",
       specifications: {
-        "Size (mm)": "20",
+        "Size": "20mm -25mm",
         Type: "1 Way Deep",
         "Std.Packaging": "10",
+        Color: "Black, Gray, Ivory, White",
         Material: "PVC",
         Application: "Electrical junction",
       },
@@ -40,14 +40,15 @@ const DeepJunctionBox: React.FC = () => {
     {
       id: "2",
       code: "DJB225",
-      title: "2 Way Deep Junction Box 25mm",
-      description: "25mm two way deep junction box for enhanced wiring space.",
+      title: "2 Way Deep Junction Box ",
+      description: " Two way deep junction box for enhanced wiring space.",
       image:
         "https://drive.google.com/file/d/1bk0aOBLh_tcYPazVMkNtwKcEN8S25va0/view?usp=drive_link",
       specifications: {
-        "Size (mm)": "25",
+        "Size ": "20mm - 25mm",
         Type: "2 Way Deep",
         "Std.Packaging": "10",
+        Color: "Black, Gray, Ivory, White",
         Material: "PVC",
         Application: "Electrical junction",
       },
@@ -56,15 +57,16 @@ const DeepJunctionBox: React.FC = () => {
     {
       id: "3",
       code: "DJB320",
-      title: "3 Way Deep Junction Box 20mm",
+      title: "3 Way Deep Junction Box ",
       description:
-        "20mm three way deep junction box for enhanced wiring space.",
+        " three way deep junction box for enhanced wiring space.",
       image:
         "https://drive.google.com/file/d/1ciiqrSZwwaDUcKy8qFuWE3-FKKxKjcad/view?usp=drive_link",
       specifications: {
-        "Size (mm)": "20",
+        "Size": "20mm - 25mm",
         Type: "3 Way Deep",
         "Std.Packaging": "10",
+        Color: "Black, Gray, Ivory, White",
         Material: "PVC",
         Application: "Electrical junction",
       },
@@ -74,14 +76,15 @@ const DeepJunctionBox: React.FC = () => {
     {
       id: "4",
       code: "DJB420",
-      title: "4 Way Deep Junction Box 20mm",
-      description: "20mm four way deep junction box for enhanced wiring space.",
+      title: "4 Way Deep Junction Box ",
+      description: " four way deep junction box for enhanced wiring space.",
       image:
         "https://drive.google.com/file/d/1d-xFh_41uAstYoKHk64wCDKNX4AuaM-h/view?usp=drive_link",
       specifications: {
-        "Size (mm)": "20",
+        "Size ": "20mm - 25mm",
         Type: "4 Way Deep",
         "Std.Packaging": "10",
+        Color: "Black, Gray, Ivory, White",
         Material: "PVC",
         Application: "Electrical junction",
       },

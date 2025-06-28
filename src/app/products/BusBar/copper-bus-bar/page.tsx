@@ -91,7 +91,7 @@ const CopperBusBar: React.FC = () => {
     {
       title: "Superior Conductivity",
       description:
-        "High-grade copper ensures excellent electrical conductivity and minimal power loss.",
+        "Electrolyte-grade copper ensures excellent electrical conductivity and minimal power loss.",
       icon: (
         <div className="flex h-12 w-12 items-center justify-center rounded-full bg-blue-100 text-blue-600">
           <Zap className="h-6 w-6" />

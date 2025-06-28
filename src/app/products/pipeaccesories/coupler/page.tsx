@@ -13,7 +13,6 @@ const PVCCoupler: React.FC = () => {
   const features = [
     "High-quality PVC material",
     "Precise fitting dimensions",
-    "Available in multiple sizes",
     "Secure pipe connection",
     "Easy installation",
   ];
@@ -32,6 +31,7 @@ const PVCCoupler: React.FC = () => {
         Material: "PVC",
         "Standard Packing": "100 pieces",
         Type: "Electrical Conduit Coupler",
+        Color: "Black, Gray, Ivory, White",
         Application: "Pipe joining",
       },
       category: "Coupler",
@@ -49,6 +49,7 @@ const PVCCoupler: React.FC = () => {
         Material: "PVC",
         "Standard Packing": "100 pieces",
         Type: "Electrical Conduit Coupler",
+        Color: "Black, Gray, Ivory, White",
         Application: "Pipe joining",
       },
       category: "Coupler",

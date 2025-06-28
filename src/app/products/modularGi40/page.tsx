@@ -14,7 +14,7 @@ const ModularGIBox: React.FC = () => {
     "Multiple model configurations",
     "Four thickness series available",
     "Premium 120 GSM GI metal used",
-    "Standard 50 mm Depth",
+    "40 mm Depth - suitable for MIVAN construction type",
     "Durable and reliable",
   ];
 
@@ -24,15 +24,14 @@ const ModularGIBox: React.FC = () => {
       code: "",
       title: "1/2 Model GI Metal Box",
       description:
-        "Modular GI Metal Box available in Diamond (1.20mm), Platinum (1.00mm), Gold (0.80mm), and Silver (0.70mm) series.",
+        "Modular GI Metal Box available in Diamond (1.20mm), Platinum (1.00mm)",
       image:
         "https://drive.google.com/file/d/101dOOjHf-pJsrr21FeG5iWbmfckIuOL0/view?usp=drive_link",
       specifications: {
         Model: "1/2 Model",
         "Diamond Series": "1.20mm",
         "Platinum Series": "1.00mm",
-        "Gold Series": "0.80mm",
-        "Silver Series": "0.70mm",
+       
       },
       category: "Modular GI Metal Box",
     },
@@ -48,8 +47,6 @@ const ModularGIBox: React.FC = () => {
         Model: "3 Model",
         "Diamond Series": "1.20mm",
         "Platinum Series": "1.00mm",
-        "Gold Series": "0.80mm",
-        "Silver Series": "0.70mm",
       },
       category: "Modular GI Metal Box",
     },
@@ -65,8 +62,6 @@ const ModularGIBox: React.FC = () => {
         Model: "4 Model",
         "Diamond Series": "1.20mm",
         "Platinum Series": "1.00mm",
-        "Gold Series": "0.80mm",
-        "Silver Series": "0.70mm",
       },
       category: "Modular GI Metal Box",
     },
@@ -83,8 +78,6 @@ const ModularGIBox: React.FC = () => {
         Model: "6 Model",
         "Diamond Series": "1.20mm",
         "Platinum Series": "1.00mm",
-        "Gold Series": "0.80mm",
-        "Silver Series": "0.70mm",
       },
       category: "Modular GI Metal Box",
     },
@@ -100,8 +93,6 @@ const ModularGIBox: React.FC = () => {
         Model: "8 Model HZ",
         "Diamond Series": "1.20mm",
         "Platinum Series": "1.00mm",
-        "Gold Series": "0.80mm",
-        "Silver Series": "0.70mm",
       },
       category: "Modular GI Metal Box",
     },
@@ -117,8 +108,6 @@ const ModularGIBox: React.FC = () => {
         Model: "8 Model SQ",
         "Diamond Series": "1.20mm",
         "Platinum Series": "1.00mm",
-        "Gold Series": "0.80mm",
-        "Silver Series": "0.70mm",
       },
       category: "Modular GI Metal Box",
     },
@@ -134,8 +123,6 @@ const ModularGIBox: React.FC = () => {
         Model: "9 Model",
         "Diamond Series": "1.20mm",
         "Platinum Series": "1.00mm",
-        "Gold Series": "0.80mm",
-        "Silver Series": "0.70mm",
       },
       category: "Modular GI Metal Box",
     },
@@ -151,8 +138,6 @@ const ModularGIBox: React.FC = () => {
         Model: "12 Model",
         "Diamond Series": "1.20mm",
         "Platinum Series": "1.00mm",
-        "Gold Series": "0.80mm",
-        "Silver Series": "0.70mm",
       },
       category: "Modular GI Metal Box",
     },
@@ -169,8 +154,6 @@ const ModularGIBox: React.FC = () => {
         Model: "16 Model",
         "Diamond Series": "1.20mm",
         "Platinum Series": "1.00mm",
-        "Gold Series": "0.80mm",
-        "Silver Series": "0.70mm",
       },
       category: "Modular GI Metal Box",
     },
@@ -187,8 +170,6 @@ const ModularGIBox: React.FC = () => {
         Model: "18 Model",
         "Diamond Series": "1.20mm",
         "Platinum Series": "1.00mm",
-        "Gold Series": "0.80mm",
-        "Silver Series": "0.70mm",
       },
       category: "Modular GI Metal Box",
     },
@@ -198,7 +179,7 @@ const ModularGIBox: React.FC = () => {
     {
       title: "Multiple Series",
       description:
-        "Available in Diamond (1.20mm), Platinum (1.00mm), Gold (0.80mm), and Silver (0.70mm) thickness options.",
+        "Available in Diamond (1.20mm), Platinum (1.00mm) thickness options.",
       icon: (
         <div className="flex h-12 w-12 items-center justify-center rounded-full bg-blue-100 text-blue-600">
           <Shield className="h-6 w-6" />
@@ -230,7 +211,7 @@ const ModularGIBox: React.FC = () => {
   return (
     <ModernProductLayout
       products={metalBoxProducts}
-      heroTitle="Modular GI Metal Box - Standard"
+      heroTitle="Modular GI Metal Box - 40 mm Depth MIVAN Construction"
       heroDescription="Premium quality metal boxes available in multiple models and thickness series"
       carouselImages={carouselImages}
       features={features}

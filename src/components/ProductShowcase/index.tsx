@@ -84,7 +84,7 @@ export const showcaseProducts: ShowcaseProduct[] = [
   },
   {
     id: "9",
-    title: "Modular GI Metal Box",
+    title: "Modular GI Metal Box - Standard",
     image:
       "https://drive.google.com/file/d/1gS6ZD3ldPaAzeVdVx0RafvC2iXTdh5Dq/view?usp=drive_link",
     path: "/products/surfacebox",

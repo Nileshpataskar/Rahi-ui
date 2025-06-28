@@ -16,6 +16,7 @@ const SPNDoubleDoorBox: React.FC = () => {
     "Durable construction",
     "Easy installation access",
     "Professional finish",
+    "Superior Powder Coated"
   ];
 
   const spnProducts: Product[] = [

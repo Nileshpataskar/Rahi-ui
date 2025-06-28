@@ -13,7 +13,7 @@ const CopperBusBarHRC: React.FC = () => {
 
   // Updated features for Copper Bus Bar products
   const features = [
-    "High-grade copper material for excellent conductivity",
+    "Electrolyte-grade copper material for excellent conductivity",
     "Various amperage ratings available",
     "Durable and corrosion-resistant construction",
     "Suitable for industrial and commercial applications",
@@ -28,7 +28,7 @@ const CopperBusBarHRC: React.FC = () => {
         "High-performance 63Amp copper bus bar system for efficient power distribution.",
       image: "/products/busbar/hrc/bushrc (1).png",
       specifications: {
-        Material: "High-grade Copper",
+        Material: "Electrolyte-grade copper",
         Voltage: "415V",
         Type: "HRC Bus Bar",
         Application: "Industrial/Commercial",
@@ -44,7 +44,7 @@ const CopperBusBarHRC: React.FC = () => {
       image:
         "/products/busbar/hrc/bushrc (4).png",
       specifications: {
-        Material: "High-grade Copper",
+        Material: "Electrolyte-grade copper",
         Voltage: "415V",
         Type: "HRC Bus Bar",
         Application: "Industrial/Commercial",
@@ -60,7 +60,7 @@ const CopperBusBarHRC: React.FC = () => {
       image:
         "/products/busbar/hrc/bushrc (7).png",
       specifications: {
-        Material: "High-grade Copper",
+        Material: "Electrolyte-grade copper",
         Voltage: "415V",
         Type: "HRC Bus Bar",
         Application: "Industrial/Commercial",
@@ -74,7 +74,7 @@ const CopperBusBarHRC: React.FC = () => {
     {
       title: "Superior Conductivity",
       description:
-        "High-grade copper ensures excellent electrical conductivity and minimal power loss.",
+        "Electrolyte-grade copper ensures excellent electrical conductivity and minimal power loss.",
       icon: (
         <div className="flex h-12 w-12 items-center justify-center rounded-full bg-blue-100 text-blue-600">
           <Zap className="h-6 w-6" />
