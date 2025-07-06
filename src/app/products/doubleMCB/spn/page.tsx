@@ -5,8 +5,14 @@ import ModernProductLayout from "../../ModernProductLayout";
 
 const SPNDoubleDoorBox: React.FC = () => {
   const carouselImages = [
+    "/products/doublemcb/spn/spn (2).webp",
     "/products/doublemcb/spn/spn (3).webp",
+    "/products/doublemcb/spn/spn (4).webp",
+    "/products/doublemcb/spn/spn (5).webp",
+    "/products/doublemcb/spn/spn (6).webp",
     "/products/doublemcb/spn/spn (7).webp",
+    "/products/doublemcb/spn/spn (8).webp",
+    "/products/doublemcb/spn/spn (9).webp",
     "/products/doublemcb/spn/spn (10).webp",
   ];
 
@@ -42,7 +48,7 @@ const SPNDoubleDoorBox: React.FC = () => {
       title: "10/12 way SPN Double Door MCB Box Prime series",
       description:
         "Premium 10/12 way Single Phase Neutral Double Door MCB distribution box from Prime series.",
-      image: "/products/doublemcb/spn/spn (4).webp",
+      image: "/products/doublemcb/spn/spn (1).webp",
       specifications: {
         Type: "SPN Double Door",
         Ways: "10/12",
@@ -58,7 +64,7 @@ const SPNDoubleDoorBox: React.FC = () => {
       title: "14/16 way SPN Double Door MCB Box Prime series",
       description:
         "Premium 14/16 way Single Phase Neutral Double Door MCB distribution box from Prime series.",
-      image: "/products/doublemcb/spn/spn (3).webp",
+      image: "/products/doublemcb/spn/spn (1).webp",
       specifications: {
         Type: "SPN Double Door",
         Ways: "14/16",

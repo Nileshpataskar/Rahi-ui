@@ -5,9 +5,7 @@ import ModernProductLayout from "../../ModernProductLayout";
 
 const JunctionBox: React.FC = () => {
   const carouselImages = [
-    "https://drive.google.com/file/d/1l4OgTm44FehIEphsR7U1sqJJOX04Gku5/view?usp=drive_link",
-    "https://drive.google.com/file/d/1TkvXx0PzI8o9HqaW3h9iO59qqVsZxzuo/view?usp=drive_link",
-    "https://drive.google.com/file/d/17ByrdVeb_bIDvPNX9GpqXPtwOG1RlhT6/view?usp=drive_link",
+    ""
   ];
 
   const features = [
@@ -24,8 +22,8 @@ const JunctionBox: React.FC = () => {
       code: "JB120",
       title: "1 Way Junction Box ",
       description: "Single way junction box conduit connections.",
-      image:
-        "https://drive.google.com/file/d/1Ec13zl4R2whzrQ2wZ7ryRe3QQapIXTik/view?usp=drive_link",
+      image: "/products/pipe_accesories/jb/img (2).png",
+
       specifications: {
         Size: "20mm - 25mm",
         Type: "1 Way",
@@ -42,8 +40,7 @@ const JunctionBox: React.FC = () => {
       code: "JB220",
       title: "2 Way Junction Box ",
       description: "Two way junction box conduit connections.",
-      image:
-        "https://drive.google.com/file/d/1v-M4GQlZ4heEUE3TspZO7tT0t5mP6SlK/view?usp=drive_link",
+      image: "/products/pipe_accesories/jb/img (1).png",
       specifications: {
         Size: "20mm - 25mm",
         Type: "2 Way",
@@ -60,8 +57,7 @@ const JunctionBox: React.FC = () => {
       code: "JB320",
       title: "3 Way Junction Box ",
       description: "Three way junction box conduit connections.",
-      image:
-        "https://drive.google.com/file/d/1eOcPxtoqO5rtE5RukN3T3Uzwz1Jm2PjS/view?usp=drive_link",
+      image: "/products/pipe_accesories/jb/img (5).png",
       specifications: {
         Size: "20mm - 25mm",
         Type: "3 Way",
@@ -78,8 +74,7 @@ const JunctionBox: React.FC = () => {
       code: "JB420",
       title: "4 Way Junction Box ",
       description: "Four way junction box conduit connections.",
-      image:
-        "https://drive.google.com/file/d/1txPPegzsZg8jGrLXMY6Ehpu6WvzEHNW0/view?usp=drive_link",
+      image: "/products/pipe_accesories/jb/img (4).png",
       specifications: {
         Size: "20mm -25mm",
         Type: "4 Way",

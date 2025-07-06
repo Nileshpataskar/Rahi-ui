@@ -4,11 +4,7 @@ import { Product } from "../types";
 import ModernProductLayout from "../ModernProductLayout";
 
 const ModularGIBox: React.FC = () => {
-  const carouselImages = [
-    "https://drive.google.com/file/d/15nLvs0bNmDKA6T8RBBNmJAO4qz8QWkn8/view?usp=drive_link",
-    "https://drive.google.com/file/d/1gS6ZD3ldPaAzeVdVx0RafvC2iXTdh5Dq/view?usp=drive_link",
-    "",
-  ];
+  const carouselImages = [""];
 
   const features = [
     "Multiple model configurations",
@@ -25,8 +21,10 @@ const ModularGIBox: React.FC = () => {
       title: "1/2 Model GI Metal Box",
       description:
         "Modular GI Metal Box available in Diamond (1.20mm), Platinum (1.00mm), Gold (0.80mm), and Silver (0.70mm) series.",
-      image:
-        "https://drive.google.com/file/d/101dOOjHf-pJsrr21FeG5iWbmfckIuOL0/view?usp=drive_link",
+      image: "/products/modular_gi/img_7268.png",
+      carouselImages: [
+        "/products/modular_gi/img_7270.png"
+      ],
       specifications: {
         Model: "1/2 Model",
         "Diamond Series": "1.20mm",
@@ -42,8 +40,10 @@ const ModularGIBox: React.FC = () => {
       title: "3 Model GI Metal Box",
       description:
         "3 Model Modular GI Metal Box with multiple thickness options.",
-      image:
-        "https://drive.google.com/file/d/1Y2Xp4ps3FYsSXYha7R62iMAHTkHgz-mW/view?usp=drive_link",
+      image: "/products/modular_gi/img_7268.png",
+      carouselImages: [
+        "/products/modular_gi/img_7270.png"
+      ],
       specifications: {
         Model: "3 Model",
         "Diamond Series": "1.20mm",
@@ -59,8 +59,7 @@ const ModularGIBox: React.FC = () => {
       title: "4 Model GI Metal Box",
       description:
         "4 Model Modular GI Metal Box with multiple thickness options.",
-      image:
-        "https://drive.google.com/file/d/1YqER7HRn9vK7j2dbFUtBUA5AwWMrVoVt/view?usp=drive_link",
+      image: "/products/modular_gi/img_7275.png",
       specifications: {
         Model: "4 Model",
         "Diamond Series": "1.20mm",
@@ -77,8 +76,10 @@ const ModularGIBox: React.FC = () => {
       title: "6 Model GI Metal Box",
       description:
         "6 Model Modular GI Metal Box with multiple thickness options.",
-      image:
-        "https://drive.google.com/file/d/1i4SXtXP6QQAHWhqPWxcls8ukuziC8yXq/view?usp=drive_link",
+      image: "/products/modular_gi/img_7276.png",
+      carouselImages: [
+        "/products/modular_gi/img_7278.png"
+      ],
       specifications: {
         Model: "6 Model",
         "Diamond Series": "1.20mm",
@@ -94,8 +95,10 @@ const ModularGIBox: React.FC = () => {
       title: "8 Model HZ GI Metal Box",
       description:
         "8 Model Horizontal Modular GI Metal Box with multiple thickness options.",
-      image:
-        "https://drive.google.com/file/d/15nLvs0bNmDKA6T8RBBNmJAO4qz8QWkn8/view?usp=drive_link",
+      image: "/products/modular_gi/img_7279.png",
+      carouselImages: [
+        "/products/modular_gi/img_7280.png"
+      ],
       specifications: {
         Model: "8 Model HZ",
         "Diamond Series": "1.20mm",
@@ -111,8 +114,10 @@ const ModularGIBox: React.FC = () => {
       title: "8 Model SQ GI Metal Box",
       description:
         "8 Model Square Modular GI Metal Box with multiple thickness options.",
-      image:
-        "https://drive.google.com/file/d/15nLvs0bNmDKA6T8RBBNmJAO4qz8QWkn8/view?usp=drive_link",
+      image: "/products/modular_gi/img_7279.png",
+      carouselImages: [
+        "/products/modular_gi/img_7280.png"
+      ],
       specifications: {
         Model: "8 Model SQ",
         "Diamond Series": "1.20mm",
@@ -128,8 +133,10 @@ const ModularGIBox: React.FC = () => {
       title: "9 Model GI Metal Box",
       description:
         "9 Model Modular GI Metal Box with multiple thickness options.",
-      image:
-        "https://drive.google.com/file/d/15nLvs0bNmDKA6T8RBBNmJAO4qz8QWkn8/view?usp=drive_link",
+      image: "/products/modular_gi/img_7302.png",
+      carouselImages: [
+        "/products/modular_gi/img_7305.png"
+      ],
       specifications: {
         Model: "9 Model",
         "Diamond Series": "1.20mm",
@@ -145,8 +152,10 @@ const ModularGIBox: React.FC = () => {
       title: "12 Model GI Metal Box",
       description:
         "12 Model Modular GI Metal Box with multiple thickness options.",
-      image:
-        "https://drive.google.com/file/d/15nLvs0bNmDKA6T8RBBNmJAO4qz8QWkn8/view?usp=drive_link",
+      image: "/products/modular_gi/img_7302.png",
+      carouselImages: [
+        "/products/modular_gi/img_7305.png"
+      ],
       specifications: {
         Model: "12 Model",
         "Diamond Series": "1.20mm",
@@ -162,9 +171,10 @@ const ModularGIBox: React.FC = () => {
       title: "16 Model GI Metal Box",
       description:
         "16 Model Modular GI Metal Box with multiple thickness options.",
-      image:
-        "https://drive.google.com/file/d/15nLvs0bNmDKA6T8RBBNmJAO4qz8QWkn8/view?usp=drive_link",
-
+      image: "/products/modular_gi/img_7302.png",
+      carouselImages: [
+        "/products/modular_gi/img_7305.png"
+      ],
       specifications: {
         Model: "16 Model",
         "Diamond Series": "1.20mm",
@@ -180,9 +190,10 @@ const ModularGIBox: React.FC = () => {
       title: "18 Model GI Metal Box",
       description:
         "18 Model Modular GI Metal Box with multiple thickness options.",
-      image:
-        "https://drive.google.com/file/d/15nLvs0bNmDKA6T8RBBNmJAO4qz8QWkn8/view?usp=drive_link",
-
+      image: "/products/modular_gi/img_7302.png",
+      carouselImages: [
+        "/products/modular_gi/img_7305.png"
+      ],
       specifications: {
         Model: "18 Model",
         "Diamond Series": "1.20mm",

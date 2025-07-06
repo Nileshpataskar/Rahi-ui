@@ -5,9 +5,7 @@ import ModernProductLayout from "../../ModernProductLayout";
 
 const DeepJunctionBox: React.FC = () => {
   const carouselImages = [
-    "https://drive.google.com/file/d/1GGli3f8BVUPJD5kc0glSnY2aXSaY6QFN/view?usp=drive_link",
-    "https://drive.google.com/file/d/1c8HaT3fzoFmvp4gOvU2mQdGR1Fow76Fl/view?usp=drive_link",
-    "https://drive.google.com/file/d/1kbXeWYDkDURv51vqy8dRmKZjLfATcUf4/view?usp=drive_link",
+    ""
   ];
 
   const features = [
@@ -24,8 +22,7 @@ const DeepJunctionBox: React.FC = () => {
       title: "1 Way Deep Junction Box ",
       description:
         " single way deep junction box for enhanced wiring space.",
-      image:
-        "https://drive.google.com/file/d/1B69YT9xmra9H8mbobIgj12GiF-9nO7Tb/view?usp=drive_link",
+      image: "/products/pipe_accesories/dji/img (5).png",
       specifications: {
         "Size": "20mm -25mm",
         Type: "1 Way Deep",
@@ -42,8 +39,7 @@ const DeepJunctionBox: React.FC = () => {
       code: "DJB225",
       title: "2 Way Deep Junction Box ",
       description: " Two way deep junction box for enhanced wiring space.",
-      image:
-        "https://drive.google.com/file/d/1bk0aOBLh_tcYPazVMkNtwKcEN8S25va0/view?usp=drive_link",
+      image: "/products/pipe_accesories/dji/img (3).png",
       specifications: {
         "Size ": "20mm - 25mm",
         Type: "2 Way Deep",
@@ -60,8 +56,8 @@ const DeepJunctionBox: React.FC = () => {
       title: "3 Way Deep Junction Box ",
       description:
         " three way deep junction box for enhanced wiring space.",
-      image:
-        "https://drive.google.com/file/d/1ciiqrSZwwaDUcKy8qFuWE3-FKKxKjcad/view?usp=drive_link",
+      image: "/products/pipe_accesories/dji/img (4).png",
+
       specifications: {
         "Size": "20mm - 25mm",
         Type: "3 Way Deep",
@@ -78,8 +74,8 @@ const DeepJunctionBox: React.FC = () => {
       code: "DJB420",
       title: "4 Way Deep Junction Box ",
       description: " four way deep junction box for enhanced wiring space.",
-      image:
-        "https://drive.google.com/file/d/1d-xFh_41uAstYoKHk64wCDKNX4AuaM-h/view?usp=drive_link",
+      image: "/products/pipe_accesories/dji/img (6).png",
+
       specifications: {
         "Size ": "20mm - 25mm",
         Type: "4 Way Deep",

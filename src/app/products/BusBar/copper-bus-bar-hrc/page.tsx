@@ -5,11 +5,7 @@ import ModernProductLayout from "../../ModernProductLayout";
 
 const CopperBusBarHRC: React.FC = () => {
   // Sample carousel images (replace with actual copper bus bar images)
-  const carouselImages = [
-    "/products/busbar/hrc/bushrc (7).png",
-    "/products/busbar/hrc/bushrc (8).png",
-    "/products/busbar/hrc/bushrc (6).png",
-  ];
+  const carouselImages: string[] = [];
 
   // Updated features for Copper Bus Bar products
   const features = [

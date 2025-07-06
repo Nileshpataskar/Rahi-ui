@@ -5,9 +5,8 @@ import ModernProductLayout from "../../ModernProductLayout";
 
 const PVCCoupler: React.FC = () => {
   const carouselImages = [
-    "https://drive.google.com/file/d/1pgqH0773xgqdnoXQ2Z462lNs-qehKzEP/view?usp=drive_link",
-    "https://drive.google.com/file/d/1GLwUn83FPjSFPGqUuyhFArtust3cclTC/view?usp=drive_link",
-    "https://drive.google.com/file/d/1w6lvM62hfZ-DFNz0bvbqpw09c6b7OJ0k/view?usp=drive_link",
+    "/products/pipe_accesories/coupler/img (2).png",
+    "/products/pipe_accesories/coupler/img (3).png",
   ];
 
   const features = [
@@ -24,8 +23,7 @@ const PVCCoupler: React.FC = () => {
       title: "20mm Coupler",
       description:
         "20mm PVC coupler for joining electrical conduit pipes with secure connection.",
-      image:
-        "https://drive.google.com/file/d/1TMzE3HsPzBgzhZlIRrKItEgWjz1rSHy0/view?usp=drive_link",
+      image: "/products/pipe_accesories/coupler/img (1).png",
       specifications: {
         Size: "20mm",
         Material: "PVC",
@@ -42,8 +40,7 @@ const PVCCoupler: React.FC = () => {
       title: "25mm Coupler",
       description:
         "25mm PVC coupler designed for reliable electrical conduit pipe connections.",
-      image:
-        "https://drive.google.com/file/d/1vtsrKEj-HqxUThJNVHKeHRnUUHv8ysiF/view?usp=drive_link",
+      image: "/products/pipe_accesories/coupler/img (1).png",
       specifications: {
         Size: "25mm",
         Material: "PVC",

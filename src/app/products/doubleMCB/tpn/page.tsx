@@ -5,8 +5,8 @@ import ModernProductLayout from "../../ModernProductLayout";
 
 const TPNPrimeDoubleDoorBox: React.FC = () => {
   const carouselImages = [
-    "/products/doublemcb/tpn/tpn (3).webp",
-    "/products/doublemcb/tpn/tpn (6).webp",
+    "/products/doublemcb/tpn/tpn (5).webp",
+    "/products/doublemcb/tpn/tpn (7).webp",
     "/products/doublemcb/tpn/tpn (8).webp",
   ];
 
@@ -26,7 +26,7 @@ const TPNPrimeDoubleDoorBox: React.FC = () => {
       title: "4 way TPN Prime Series Double Door MCB Box",
       description:
         "Premium 4 way Three Phase Neutral Double Door MCB distribution box from Prime series.",
-      image: "/products/doublemcb/tpn/tpn (1).webp",
+      image: "/products/doublemcb/tpn/tpn (4).webp",
       specifications: {
         Type: "TPN Double Door",
         Ways: "4",
@@ -42,7 +42,7 @@ const TPNPrimeDoubleDoorBox: React.FC = () => {
       title: "6 way TPN Prime Series Double Door MCB Box",
       description:
         "Premium 6 way Three Phase Neutral Double Door MCB distribution box from Prime series.",
-      image: "/products/doublemcb/tpn/tpn (2).webp",
+      image: "/products/doublemcb/tpn/tpn (4).webp",
 
       specifications: {
         Type: "TPN Double Door",
@@ -59,7 +59,7 @@ const TPNPrimeDoubleDoorBox: React.FC = () => {
       title: "8 way TPN Prime Series Double Door MCB Box",
       description:
         "Premium 8 way Three Phase Neutral Double Door MCB distribution box from Prime series.",
-      image: "/products/doublemcb/tpn/tpn (3).webp",
+      image: "/products/doublemcb/tpn/tpn (4).webp",
 
       specifications: {
         Type: "TPN Double Door",

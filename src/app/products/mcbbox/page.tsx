@@ -24,8 +24,6 @@ const MCBBoxPage: React.FC = () => {
         "Durable 4 way single-phase MCB box with ABS door for residential use.",
       image: "/products/abs/abs (1).png",
       carouselImages: [
-        "/products/abs/abs (4).png",
-        "/products/abs/abs (5).png",
         "/products/abs/abs (6).png",
       ],
       specifications: {
@@ -41,10 +39,9 @@ const MCBBoxPage: React.FC = () => {
       id: "2",
       code: "PD06",
       title: "6/8 Way ABS Door MCB Box",
-      image: "/products/abs/abs (3).png",
+      image: "/products/abs/abs (5).png",
       carouselImages: [
-        "/products/abs/abs (1).png",
-        "/products/abs/abs (2).png",
+        "/products/abs/abs (4).png",
       ],
       description:
         "Medium-sized 8 way single-phase MCB box for residential and small commercial applications.",
@@ -66,8 +63,7 @@ const MCBBoxPage: React.FC = () => {
 
       image: "/products/abs/abs (2).png",
       carouselImages: [
-        "/products/abs/abs (1).png",
-        "/products/abs/abs (3).png",
+       
         "/products/abs/abs (4).png",
       ],
 

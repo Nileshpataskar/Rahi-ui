@@ -5,9 +5,10 @@ import ModernProductLayout from "../ModernProductLayout";
 
 const ISIPipe: React.FC = () => {
   const carouselImages = [
-    "https://drive.google.com/file/d/1EpDNDPCI5DC3DCjOMWgzDhiami5PNUWF/view?usp=drive_link",
-    "https://drive.google.com/file/d/1W6NDB1EeAxG7Oll_gWEgSkdRUjzOzMzZ/view?usp=drive_link",
-    "https://drive.google.com/file/d/1K0PTrhu3QHmZQH21_kYRquFBaEmr6FIE/view?usp=drive_link"
+    "/products/pipe/img (2).png",
+    "/products/pipe/img (3).png",
+    "/products/pipe/img (4).png",
+    "/products/pipe/img (5).png",
   ];
 
   const features = [
@@ -25,8 +26,7 @@ const ISIPipe: React.FC = () => {
       title: "20MM ISI PVC Conduit Pipe",
       description:
         "20MM ISI certified PVC conduit pipe for professional electrical installations.",
-      image:
-        "https://drive.google.com/file/d/1EiyqZtw_AogxZDyezHKNrtAQJqcO81yd/view?usp=drive_link",
+      image: "/products/pipe/img (1).png",
       specifications: {
         Size: "20MM",
         Type: "LMS,MMS,HMS",
@@ -43,8 +43,7 @@ const ISIPipe: React.FC = () => {
       title: "25MM ISI PVC Conduit Pipe",
       description:
         "25MM ISI certified PVC conduit pipe for professional electrical installations.",
-      image:
-        "https://drive.google.com/file/d/1GD0Xr4EHKP7J_HCijyrTUae9YsKYCtFK/view?usp=drive_link",
+      image: "/products/pipe/img (1).png",
       specifications: {
         Size: "25MM",
         Type: "LMS,MMS,HMS",
@@ -61,8 +60,7 @@ const ISIPipe: React.FC = () => {
       title: "32MM ISI PVC Conduit Pipe",
       description:
         "32MM ISI certified PVC conduit pipe for professional electrical installations.",
-      image:
-        "https://drive.google.com/file/d/10_bUfBaCm9lnvk-qbrlwfdSAH7z8d3e5/view?usp=drive_link",
+      image: "/products/pipe/img (1).png",
       specifications: {
         Size: "32MM",
         Type: "LMS,MMS,HMS",
@@ -79,8 +77,7 @@ const ISIPipe: React.FC = () => {
       title: "40MM ISI PVC Conduit Pipe",
       description:
         "40MM ISI certified PVC conduit pipe for professional electrical installations.",
-      image:
-        "https://drive.google.com/file/d/1q_SPTH-PFY2xYuzAGR1FJaaKtM-hsreS/view?usp=drive_link",
+      image: "/products/pipe/img (1).png",
       specifications: {
         Size: "40MM",
         Type: "LMS,MMS,HMS",
@@ -97,8 +94,7 @@ const ISIPipe: React.FC = () => {
       title: "50MM ISI PVC Conduit Pipe",
       description:
         "50MM ISI certified PVC conduit pipe for professional electrical installations.",
-      image:
-        "https://drive.google.com/file/d/1l_mygR_Rt6nqbWYZr0S14LbviKrPWqSw/view?usp=drive_link",
+      image: "/products/pipe/img (1).png",
       specifications: {
         Size: "50MM",
         Type: "LMS,MMS,HMS",

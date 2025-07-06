@@ -4,8 +4,9 @@ import { Product } from "../../types";
 import ModernProductLayout from "../../ModernProductLayout";
 const PVCBend: React.FC = () => {
   const carouselImages = [
-    "https://drive.google.com/file/d/1SjnqOy4I-DKseXooIs18Oic4mk_2stfE/view?usp=drive_link",
-    "https://drive.google.com/file/d/1nlstaPq8R2Mmsvxtw_bPEUgjdxflHwMb/view?usp=drive_link",
+    "/products/pipe_accesories/pipe_acc/img (2).png",
+    "/products/pipe_accesories/pipe_acc/img (3).png",
+    "/products/pipe_accesories/pipe_acc/img (4).png",
   ];
 
   const features = [
@@ -22,8 +23,7 @@ const PVCBend: React.FC = () => {
       title: "20mm PVC Bend",
       description:
         "20mm PVC bend for electrical conduit installations.",
-      image:
-        "https://drive.google.com/file/d/1jzZ_N6Z--YRDIwZeMH6qKRWDQ_BQrRBm/view?usp=drive_link",
+      image: "/products/pipe_accesories/pipe_acc/img (1).png",
       specifications: {
         Size: "20mm",
         Material: "PVC",
@@ -39,8 +39,7 @@ const PVCBend: React.FC = () => {
       title: "25mm PVC Bend",
       description:
         "25mm PVC bend designed for electrical conduit systems.",
-      image:
-        "https://drive.google.com/file/d/1xBIQBhIomZDTM1xXBpqrmC8xOrvLMuUG/view?usp=drive_link",
+      image: "/products/pipe_accesories/pipe_acc/img (1).png",
       specifications: {
         Size: "25mm",
         Material: "PVC",

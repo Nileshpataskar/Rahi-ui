@@ -5,8 +5,10 @@ import ModernProductLayout from "../../ModernProductLayout";
 
 const TPNDoubleDoorTVTelBox: React.FC = () => {
   const carouselImages = [
-    "https://drive.google.com/file/d/1i51DwNalzp_9VRfAUySemFlXSIZb_s6x/view?usp=drive_link",
-    "https://drive.google.com/file/d/1PdAZ43_uq5m1MuqP7R04iDF_zE1KzlLp/view?usp=drive_link"
+    "/products/tvtpn/tpn (2).png",
+    "/products/tvtpn/tpn (3).png",
+    "/products/tvtpn/tpn (4).png",
+    "/products/tvtpn/tpn (5).png",
   ];
 
   const features = [
@@ -23,9 +25,9 @@ const TPNDoubleDoorTVTelBox: React.FC = () => {
       id: "1",
       code: "PMTPN04TV-TEL",
       title: "4 way TPN Double Door MCB Box With TV-TEL",
-      description: 
+      description:
         "Premium 4 way Three Phase Neutral Double Door MCB distribution box with TV and Telephone compartments from Prime series.",
-      image: "https://drive.google.com/file/d/1IEasq5L8VM_nxJS9jVXStI4DUtIPPwHV/view?usp=drive_link",
+      image: "/products/tvtpn/tpn (1).png",
       specifications: {
         Type: "TPN Double Door with TV-TEL",
         Ways: "4",
@@ -40,9 +42,10 @@ const TPNDoubleDoorTVTelBox: React.FC = () => {
       id: "2",
       code: "PMTPN06TV-TEL",
       title: "6 way TPN Double Door MCB Box With TV-TEL",
-      description: 
+      description:
         "Premium 6 way Three Phase Neutral Double Door MCB distribution box with TV and Telephone compartments from Prime series.",
-      image: "https://drive.google.com/file/d/1DYn8ZUW3mh9EwFCtQAM7qeMOlpJ1vBkx/view?usp=drive_link",
+      image: "/products/tvtpn/tpn (1).png",
+
       specifications: {
         Type: "TPN Double Door with TV-TEL",
         Ways: "6",
@@ -57,9 +60,10 @@ const TPNDoubleDoorTVTelBox: React.FC = () => {
       id: "3",
       code: "PMTPN08TV-TEL",
       title: "8 way TPN Double Door MCB Box with TV-TEL",
-      description: 
+      description:
         "Premium 8 way Three Phase Neutral Double Door MCB distribution box with TV and Telephone compartments from Prime series.",
-      image: "https://drive.google.com/file/d/1i51DwNalzp_9VRfAUySemFlXSIZb_s6x/view?usp=drive_link",
+      image: "/products/tvtpn/tpn (1).png",
+
       specifications: {
         Type: "TPN Double Door with TV-TEL",
         Ways: "8",
@@ -74,9 +78,10 @@ const TPNDoubleDoorTVTelBox: React.FC = () => {
       id: "4",
       code: "PMTPN12TV-TEL",
       title: "12 way TPN Double Door MCB Box with TV-TEL",
-      description: 
+      description:
         "Premium 12 way Three Phase Neutral Double Door MCB distribution box with TV and Telephone compartments from Prime series.",
-      image: "https://drive.google.com/file/d/1mToYfH3LCMruYbxsZHcOfRhZLGrp4veR/view?usp=drive_link",
+      image: "/products/tvtpn/tpn (1).png",
+
       specifications: {
         Type: "TPN Double Door with TV-TEL",
         Ways: "12",

@@ -96,7 +96,7 @@ const menuData: Menu[] = [
       },
       {
         id: 69,
-        title: "Modular GI Metal Box - 40 mm depth MIVAN Cnstruction",
+        title: "Modular GI Metal Box - 40 mm depth MIVAN Construction",
         path: "/products/modularGi40",
         newTab: false,
       },
