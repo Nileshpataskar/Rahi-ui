@@ -21,7 +21,7 @@ export const teamData: TeamMember[] = [
     name: "Vikrant P.Tathavadekar",
     role: "Chief Marketing Officer",
     description:
-      " Vikrant P.Tathavadekar is a transformational sales leader and strategist, known for driving business growth and building strong partnerships. His strategic vision and results-driven approach consistently contribute to organizational success.",
+      " Vikrant is a transformational sales leader and strategist, known for driving business growth and building strong partnerships. His strategic vision and results-driven approach consistently contribute to organizational success.",
     image:
       "/assets/vikrant.jpeg",
   },
