@@ -12,26 +12,17 @@ export const teamData: TeamMember[] = [
     name: "Vaibhav Rahi",
     role: "Chief Executive Officer",
     description:
-      "With over 10 years of industry experience, Jonathan leads our company with a vision for innovation and excellence that continues to drive our success.",
+      "Vaibhav Rahi is a visionary CEO known for innovative leadership and a commitment to excellence. His strategic direction and collaborative approach drive organizational success.",
     image:
-      "https://drive.google.com/file/d/1JiTjL_fqOn8tSKPfAGjNZ180dpnaan9V/view?usp=drive_link",
+      "/assets/vaibhav.png",
   },
   {
     id: 2,
-    name: "Vaibhav Rahi",
-    role: "Chief Executive Officer",
+    name: "Vikrant P.Tathavadekar",
+    role: "Chief Marketing Officer",
     description:
-      "With over 10 years of industry experience, Jonathan leads our company with a vision for innovation and excellence that continues to drive our success.",
+      " Vikrant P.Tathavadekar is a transformational sales leader and strategist, known for driving business growth and building strong partnerships. His strategic vision and results-driven approach consistently contribute to organizational success.",
     image:
-      "https://drive.google.com/file/d/1JiTjL_fqOn8tSKPfAGjNZ180dpnaan9V/view?usp=drive_link",
+      "/assets/vikrant.jpeg",
   },
-  {
-    id: 3,
-    name: "Vaibhav Rahi",
-    role: "Chief Executive Officer",
-    description:
-      "With over 10 years of industry experience, Jonathan leads our company with a vision for innovation and excellence that continues to drive our success.",
-    image:
-      "https://drive.google.com/file/d/1JiTjL_fqOn8tSKPfAGjNZ180dpnaan9V/view?usp=drive_link",
-  }
 ];

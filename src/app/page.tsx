@@ -32,7 +32,7 @@ export default function Home() {
       <ProductShowcaseSection />
       {/* <Team /> */}
       <TeamSection />
-      <Clients />
+      {/* <Clients /> */}
       <CallToAction
         buttons={[
           { name: "Download Resource", path: "/download" },

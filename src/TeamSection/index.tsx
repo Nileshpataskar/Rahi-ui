@@ -19,9 +19,11 @@ const TeamSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 gap-16 md:grid-cols-3">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-16 justify-center items-start max-w-3xl mx-auto">
           {teamData.map((member, index) => (
-            <TeamMember key={member.id} member={member} delay={index * 0.1} />
+            <div className="flex justify-center" key={member.id}>
+              <TeamMember member={member} delay={index * 0.1} />
+            </div>
           ))}
         </div>
       </div>
