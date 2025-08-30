@@ -18,12 +18,13 @@ const WhoAreWe = () => {
               <Image
                 width={800}
                 height={450}
-                src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=800&q=80"
+                // src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=800&q=80"
+                src="/products/who.jpg"
                 alt="Founding"
                 className="h-full w-full object-cover transition-transform duration-1000 hover:scale-105"
               />
               <div className="absolute left-0 top-0 bg-[#c0a062] px-8 py-4 text-sm font-extralight tracking-[0.3em] text-white">
-                2000
+                {/* 2000 */}
               </div>
             </div>
           </motion.div>
