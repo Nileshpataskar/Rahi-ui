@@ -5,11 +5,6 @@ import { Product } from "../types";
 import ModernProductLayout from "../ModernProductLayout";
 
 const SilverLineGangBox: React.FC = () => {
-  const carouselImages = [
-    "https://drive.google.com/file/d/1lxRUnJK-tZHaNxYdu8co4RB1vC87Spw5/view?usp=drive_link",
-    "https://drive.google.com/file/d/10mImO3BBVVOFDabKX8wctMeZ52SliaMW/view?usp=drive_link",
-  ];
-
   const features = [
     "Premium Silver Line finish",
     "Multiple model configurations",
@@ -24,7 +19,7 @@ const SilverLineGangBox: React.FC = () => {
       title: "1 Model Gang Box",
       description: "Single model silver line gang box for basic installations.",
       image:
-        "https://drive.google.com/file/d/1yG5joybjmEN5OWq7LUj1Zhgn5hyWm7M_/view?usp=drive_link",
+        "/products/gangbox/IMG_7329.png",
       specifications: {
         Model: "1 model",
         "STD Packing": "20",
@@ -40,7 +35,7 @@ const SilverLineGangBox: React.FC = () => {
       description:
         "Dual model silver line gang box for expanded installations.",
       image:
-        "https://drive.google.com/file/d/16MQ4PjWgt8NfMcfAXUrr8xdV51iAEQki/view?usp=drive_link",
+        "/products/gangbox/IMG_7330.png",
       specifications: {
         Model: "2 model",
         "STD Packing": "20",
@@ -56,7 +51,7 @@ const SilverLineGangBox: React.FC = () => {
       description:
         "Triple model silver line gang box for multiple switches or sockets.",
       image:
-        "https://drive.google.com/file/d/1JwbVHmX8iI0u3MbmQ361IeOcuJYQ8XPv/view?usp=drive_link",
+        "/products/gangbox/IMG_7332.png",
       specifications: {
         Model: "3 model",
         "STD Packing": "20",
@@ -72,7 +67,7 @@ const SilverLineGangBox: React.FC = () => {
       description:
         "Four model silver line gang box for multiple electrical points.",
       image:
-        "https://drive.google.com/file/d/1BOpEJq4xDFdvLDNRP3qpDpB80uZc1bqy/view?usp=drive_link",
+        "/products/gangbox/IMG_7341.png",
       specifications: {
         Model: "4 model",
         "STD Packing": "20",
@@ -87,7 +82,7 @@ const SilverLineGangBox: React.FC = () => {
       title: "6 Model Gang Box",
       description: "Six model silver line gang box for larger installations.",
       image:
-        "https://drive.google.com/file/d/1OWEPCHTYc2r8_Vy0CWdW48-THwHeS50b/view?usp=drive_link",
+        "/products/gangbox/IMG_7343.png",
       specifications: {
         Model: "6 model",
         "STD Packing": "10",
@@ -102,7 +97,7 @@ const SilverLineGangBox: React.FC = () => {
       title: "8 Model HZ Gang Box",
       description: "Eight model horizontal silver line gang box configuration.",
       image:
-        "https://drive.google.com/file/d/10XVhFOMLGXy_U0UrctfvOTWlzEKzBAee/view?usp=drive_link",
+        "/products/gangbox/IMG_7353.png",
       specifications: {
         Model: "8 model HZ",
         "STD Packing": "10",
@@ -117,7 +112,7 @@ const SilverLineGangBox: React.FC = () => {
       title: "8 Model SQ Gang Box",
       description: "Eight model square silver line gang box configuration.",
       image:
-        "https://drive.google.com/file/d/15eChtbJ862wWgHKRev947LUklyDUGSoJ/view?usp=drive_link",
+        "/products/gangbox/IMG_7356.png",
       specifications: {
         Model: "8 model SQ",
         "STD Packing": "10",
@@ -133,7 +128,7 @@ const SilverLineGangBox: React.FC = () => {
       description:
         "Twelve model silver line gang box for extensive installations.",
       image:
-        "https://drive.google.com/file/d/10mImO3BBVVOFDabKX8wctMeZ52SliaMW/view?usp=drive_link",
+        "/products/gangbox/IMG_7356.png",
       specifications: {
         Model: "12 model",
         "STD Packing": "10",
@@ -150,7 +145,7 @@ const SilverLineGangBox: React.FC = () => {
       description:
         "Eighteen model silver line gang box for maximum configuration needs.",
       image:
-        "https://drive.google.com/file/d/1lxRUnJK-tZHaNxYdu8co4RB1vC87Spw5/view?usp=drive_link",
+        "/products/gangbox/IMG_7356.png",
       specifications: {
         Model: "18 model",
         "STD Packing": "5",
@@ -199,7 +194,7 @@ const SilverLineGangBox: React.FC = () => {
       products={gangBoxProducts}
       heroTitle="Silver Line Gang Box"
       heroDescription="Premium quality gang boxes with silver line finish for professional electrical installations"
-      carouselImages={carouselImages}
+      // carouselImages={carouselImages}
       features={features}
       benefits={benefits}
     />

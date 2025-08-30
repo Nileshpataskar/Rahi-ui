@@ -16,7 +16,6 @@ const fanboxProducts: Product[] = [
     },
     category: "Fan Box",
     image: "/products/fanbox/fanbox.png", // <-- Replace with your actual image path
-    carouselImages: [],
   },
 ];
 
@@ -61,7 +60,7 @@ const FanBoxPage = () => {
   return (
     <ModernProductLayout
       products={fanboxProducts}
-      heroTitle="Fan Box"
+      heroTitle="Metal Fan Box"
       heroDescription="Metal Fan Box with 10mm Rod - Durable GI Construction"
       features={features}
       benefits={benefits}

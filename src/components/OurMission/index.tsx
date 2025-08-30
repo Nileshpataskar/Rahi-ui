@@ -16,7 +16,7 @@ const OurMission = () => {
             <Image
               width={800}
               height={450}
-              src="https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?w=800&q=80"
+              src="/products/missionimage.jpg"
               alt="Today"
               className="h-full w-full object-cover transition-transform duration-1000 hover:scale-105"
             />

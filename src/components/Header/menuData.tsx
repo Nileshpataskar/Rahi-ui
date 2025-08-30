@@ -133,7 +133,7 @@ const menuData: Menu[] = [
       },
       {
         id: 73,
-        title: "Round Fan Box GI",
+        title: "Metal Fan Box",
         path: "/products/fanbox",
         newTab: false,
       },
